@@ -1,0 +1,195 @@
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:14 - Launching the application...
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:15 - Operating System: Windows 10 10.0
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:16 - JRE: 17.0.2
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Java Launched From: C:\Users\goyde\.jdks\openjdk-17.0.2
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Class Path: C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit-rt.jar;C:\Users\goyde\Desktop\Lab1Logs\target\test-classes;C:\Users\goyde\Desktop\Lab1Logs\target\classes;C:\Users\goyde\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\goyde\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\goyde\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Library Path: C:\Users\goyde\.jdks\openjdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Users\goyde\AppData\Local\Microsoft\WindowsApps;C:\Users\goyde\AppData\Local\Programs\Microsoft VS Code\bin;.
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - User Home Directory: C:\Users\goyde
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - User Working Directory: C:\Users\goyde\Desktop\Lab1Logs
+09.14:08.32.01 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Test INFO logging.
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:14 - Launching the application...
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:15 - Operating System: Windows 10 10.0
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:16 - JRE: 17.0.2
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Java Launched From: C:\Users\goyde\.jdks\openjdk-17.0.2
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Class Path: C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit-rt.jar;C:\Users\goyde\Desktop\Lab1Logs\target\test-classes;C:\Users\goyde\Desktop\Lab1Logs\target\classes;C:\Users\goyde\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\goyde\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\goyde\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Library Path: C:\Users\goyde\.jdks\openjdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Users\goyde\AppData\Local\Microsoft\WindowsApps;C:\Users\goyde\AppData\Local\Programs\Microsoft VS Code\bin;.
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - User Home Directory: C:\Users\goyde
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - User Working Directory: C:\Users\goyde\Desktop\Lab1Logs
+09.14:09.05.11 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Test INFO logging.
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:14 - Launching the application...
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:15 - Operating System: Windows 10 10.0
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:16 - JRE: 17.0.2
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Java Launched From: C:\Users\goyde\.jdks\openjdk-17.0.2
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Class Path: C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit-rt.jar;C:\Users\goyde\Desktop\Lab1Logs\target\test-classes;C:\Users\goyde\Desktop\Lab1Logs\target\classes;C:\Users\goyde\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\goyde\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\goyde\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Library Path: C:\Users\goyde\.jdks\openjdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Users\goyde\AppData\Local\Microsoft\WindowsApps;C:\Users\goyde\AppData\Local\Programs\Microsoft VS Code\bin;.
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - User Home Directory: C:\Users\goyde
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - User Working Directory: C:\Users\goyde\Desktop\Lab1Logs
+09.14:09.21.44 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Test INFO logging.
+09.14:09.21.44 WARN	ru.sfedu.lab1.Lab1LogsClient:23 - Test warn: 
+09.14:09.21.44ERROR	ru.sfedu.lab1.Lab1LogsClient:24 - Test error: 
+09.14:09.21.44DEBUG	ru.sfedu.lab1.Lab1LogsClient:25 - Test debug: 
+09.14:09.22.46 WARN	ru.sfedu.lab1.Lab1LogsClient:23 - Test warn: 
+09.14:09.22.46ERROR	ru.sfedu.lab1.Lab1LogsClient:24 - Test error: 
+09.14:09.23.26ERROR	ru.sfedu.lab1.Lab1LogsClient:24 - Test error: 
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:14 - Launching the application...
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:15 - Operating System: Windows 10 10.0
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:16 - JRE: 17.0.2
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Java Launched From: C:\Users\goyde\.jdks\openjdk-17.0.2
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Class Path: C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit-rt.jar;C:\Users\goyde\Desktop\Lab1Logs\target\test-classes;C:\Users\goyde\Desktop\Lab1Logs\target\classes;C:\Users\goyde\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\goyde\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\goyde\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Library Path: C:\Users\goyde\.jdks\openjdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Users\goyde\AppData\Local\Microsoft\WindowsApps;C:\Users\goyde\AppData\Local\Programs\Microsoft VS Code\bin;.
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - User Home Directory: C:\Users\goyde
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - User Working Directory: C:\Users\goyde\Desktop\Lab1Logs
+09.14:09.23.46 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Test INFO logging.
+09.14:09.23.46 WARN	ru.sfedu.lab1.Lab1LogsClient:23 - Test warn: 
+09.14:09.23.46ERROR	ru.sfedu.lab1.Lab1LogsClient:24 - Test error: 
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:14 - Launching the application...
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:15 - Operating System: Windows 10 10.0
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:16 - JRE: 17.0.2
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Java Launched From: C:\Users\goyde\.jdks\openjdk-17.0.2
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Class Path: C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit5-rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.1.1\plugins\junit\lib\junit-rt.jar;C:\Users\goyde\Desktop\Lab1Logs\target\test-classes;C:\Users\goyde\Desktop\Lab1Logs\target\classes;C:\Users\goyde\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\goyde\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\goyde\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\goyde\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Library Path: C:\Users\goyde\.jdks\openjdk-17.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Git\cmd;C:\Users\goyde\AppData\Local\Microsoft\WindowsApps;C:\Users\goyde\AppData\Local\Programs\Microsoft VS Code\bin;.
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - User Home Directory: C:\Users\goyde
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - User Working Directory: C:\Users\goyde\Desktop\Lab1Logs
+09.21:08.47.14 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Test INFO logging.
+09.21:08.47.14 WARN	ru.sfedu.lab1.Lab1LogsClient:23 - Test warn: 
+09.21:08.47.14ERROR	ru.sfedu.lab1.Lab1LogsClient:24 - Test error: 
+09.21:08.47.37 INFO	ru.sfedu.lab1.Constans:14 - Street name: null
+09.21:08.48.21 INFO	ru.sfedu.lab1.Constans:14 - Street name: null
+09.21:08.49.00 INFO	ru.sfedu.lab1.Constans:14 - Street name: null
+09.21:09.13.06 INFO	ru.sfedu.lab1.Constans:14 - Street name: null
+09.21:09.18.22 INFO	ru.sfedu.lab1.Constans:14 - Street name: null
+09.28:08.20.52 INFO	ru.sfedu.lab1.Constans:14 - Planet name: null
+09.28:08.22.36 INFO	ru.sfedu.lab1.Constans:14 - Planet name: null
+09.28:08.23.58 INFO	ru.sfedu.lab1.Constans:14 - Planet name: null
+09.28:08.25.10 INFO	ru.sfedu.lab1.Constans:13 - Planet name: null
+09.28:08.25.57 INFO	ru.sfedu.lab1.Constans:13 - Planet name: null
+09.28:08.26.35 INFO	ru.sfedu.lab1.Constans:14 - Planet name: null
+09.28:09.30.20 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Saturn
+09.28:09.38.24 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.04:12.35.42 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.04:10.49.32 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.04:11.21.50 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.05:05.26.13 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.05:05.26.13 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Ljava.lang.String;@1f0f1111
+10.05:05.26.54 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.05:05.26.54 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Ljava.lang.String;@1f0f1111
+10.05:05.29.05 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Saturn
+10.05:05.29.05 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Ljava.lang.String;@1f0f1111
+10.05:05.31.26 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Ljava.lang.String;@75329a49
+10.05:05.32.15 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Saturn]
+10.05:05.32.48 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Uran,  Neptune,  Jupiter]
+10.05:05.33.56 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Ljava.lang.String;@75329a49
+10.05:05.34.18 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Uran,  Neptune,  Jupiter]
+10.05:05.35.50 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - Планета: [Uran,  Neptune,  Jupiter]
+10.05:06.03.03 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Uran,  Neptune,  Jupiter]
+10.05:06.03.57 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - Планета: {1:'January', 2:'February'}
+10.05:06.04.13 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Uran,  Neptune,  Jupiter]
+10.05:06.04.22 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - Планета: {1:'January', 2:'February'}
+10.05:06.05.01 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - Планета: [{1:'January',  2:'February'}]
+10.05:06.29.16 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - 1:'January'
+10.05:06.29.16 INFO	ru.sfedu.lab1.Lab1LogsClient:28 -  2:'February'
+10.05:06.29.16 INFO	ru.sfedu.lab1.Lab1LogsClient:30 - Планета: [1:'January',  2:'February']
+10.05:06.34.19 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [Ljava.lang.String;@49c386c8
+10.05:06.34.19 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [Ljava.lang.String;@56528192
+10.05:06.34.19 INFO	ru.sfedu.lab1.Lab1LogsClient:30 - Планета: [1:'January', 2:'February']
+10.05:06.35.37 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [1, 'January']
+10.05:06.35.37 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [2, 'February']
+10.05:06.35.37 INFO	ru.sfedu.lab1.Lab1LogsClient:30 - Планета: [1:'January', 2:'February']
+10.12:08.13.45 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [1, 'January']
+10.12:08.13.45 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - [2, 'February']
+10.12:08.13.45 INFO	ru.sfedu.lab1.Lab1LogsClient:30 - Планета: [1:'January', 2:'February']
+10.12:08.17.58 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [1:'January']
+10.12:08.17.58 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [2:'February']
+10.12:08.17.58 INFO	ru.sfedu.lab1.Lab1LogsClient:32 - Планета: [1:'January', 2:'February']
+10.12:08.20.18 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [1, 'January']
+10.12:08.20.18 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [2, 'February']
+10.12:08.20.18 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - Планета: [1:'January', 2:'February']
+10.12:08.25.00 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [1, 'January']
+10.12:08.27.39 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - {}
+10.12:08.27.39 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - {}
+10.12:08.27.39 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - Планета: [1:'January', 2:'February']
+10.12:08.28.08 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - Планета: [1:'January', 2:'February']
+10.12:08.28.46 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - Планета: ['January']
+10.12:08.29.04 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - Планета: ['January']
+10.12:08.30.07 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - [1, 'January']
+10.12:08.30.07 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - ['January']
+10.12:08.30.07 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - Планета: ['January']
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - [1, 'January']
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:43 - 1
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - 'January'
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:43 - 2
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - 'February'
+10.12:08.42.48 INFO	ru.sfedu.lab1.Lab1LogsClient:46 - Планета: [[Ljava.lang.String;@5ccddd20]
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - [1, January]
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January}
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:45 - 1
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:46 - January
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January, 2=February}
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:45 - 2
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:46 - February
+10.12:08.46.37 INFO	ru.sfedu.lab1.Lab1LogsClient:48 - Планета: [[Ljava.lang.String;@5ccddd20]
+10.12:08.47.01 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - [1, January]
+10.12:08.47.01 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January}
+10.12:08.47.01 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January, 2=February}
+10.12:08.47.01 INFO	ru.sfedu.lab1.Lab1LogsClient:48 - Планета: [[Ljava.lang.String;@5ccddd20]
+10.12:08.47.42 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - [1, January]
+10.12:08.47.42 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January}
+10.12:08.47.42 INFO	ru.sfedu.lab1.Lab1LogsClient:44 - {1=January, 2=February}
+10.12:08.47.42 INFO	ru.sfedu.lab1.Lab1LogsClient:48 - Планета: {1=January, 2=February}
+10.12:08.48.20 INFO	ru.sfedu.lab1.Lab1LogsClient:45 - Планета: {1=January, 2=February}
+10.12:08.59.15 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.12:09.06.37 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:08.17.24 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:09.23.34 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:09.24.00 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.25.12 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.27.07 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.28.01 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.29.20 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
+10.19:09.29.37 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:09.30.46 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.38.10 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
+10.19:09.38.10 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:09.38.10 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:19.19.58 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
+10.19:19.19.58 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:19.19.58 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:19.20.23 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
+10.19:19.20.23 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Планета: [Earth,  Jupiter]
+10.19:19.20.23 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - Месяцы: {1=January, 2=February}
+10.19:19.37.57 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.19:19.37.57 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.19:19.37.57 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.19:19.37.57 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.19:19.38.36 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.19:19.38.36 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.19:19.38.36 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.19:19.38.36 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.19:19.38.48 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.19:19.38.48 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.19:19.38.48 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.19:19.38.48 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:15.25.13 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:15.25.13 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:15.25.13 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:15.25.13 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:15.32.39 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:15.32.39 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:15.32.39 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:15.32.39 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:15.33.15 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:15.33.15 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:15.33.15 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:15.33.15 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:15.50.21 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:15.50.21 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:15.50.21 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:15.50.21 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:16.11.00 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:16.11.00 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:16.11.00 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:16.11.00 INFO	ru.sfedu.lab1.Lab1LogsClient:19 - Планета: Venera
+10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:17 - Планета: Venera
+10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
+10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
+10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
