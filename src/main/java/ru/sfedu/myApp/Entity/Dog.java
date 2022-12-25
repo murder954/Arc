@@ -4,7 +4,6 @@ import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import ru.sfedu.myApp.PetTypes;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -13,9 +12,9 @@ public class Dog extends Pet {
     @XmlElement(name = "aggressive")
     private boolean isAggressive;
 
-    public Dog(String name, String gender, double weight, String feedType, PetTypes type, int age, String nameOfDisease, boolean isAgressive) {
+    public Dog(String name, String gender, double weight, String feedType, String type, int age, String nameOfDisease, boolean isAggressive) {
         super(name, gender, weight, feedType, type, age, nameOfDisease);
-        this.isAggressive = isAgressive;
+        this.isAggressive = isAggressive;
     }
 
     public Dog(){
@@ -23,11 +22,11 @@ public class Dog extends Pet {
     }
 
 
-    public void enterIsAgressive(boolean isAgressive) {
+    public void setIsAgressive(boolean isAgressive) {
         this.isAggressive = isAgressive;
     }
 
-    public boolean returnIsAgressive() {
+    public boolean getIsAgressive() {
         return isAggressive;
     }
 }

@@ -9,7 +9,7 @@ import java.util.List;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlSeeAlso({Owner.class, Pet.class, Cat.class, Dog.class, Fish.class, Bird.class, Feed.class, Drug.class, Disease.class, EnvironmentVariant.class})
+@XmlSeeAlso({Owner.class, Pet.class, Cat.class, Dog.class, Fish.class, Bird.class, Feed.class, Drug.class, Disease.class, EnvironmentVariant.class, History.class})
 public class XmlWrapper<T> implements Serializable {
 
     @XmlElementWrapper(name = "wrapper")

@@ -1,54 +1,89 @@
 package ru.sfedu.myApp.Entity;
 
-import ru.sfedu.myApp.DataProviderXML;
+import com.opencsv.bean.CsvBindByPosition;
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 
+import java.util.Date;
+
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class History{
-    private Pet petObj;
+    @XmlElement(name = "petName")
+    @CsvBindByPosition(position = 0)
+    private String petName;
 
-    private Service serObj;
+    @XmlElement(name = "petId")
+    @CsvBindByPosition(position = 1)
+    private String petId;
 
-    private String serResult;
+    @XmlElement(name = "ownerId")
+    @CsvBindByPosition(position = 2)
+    private String ownerId;
 
-    private String petStatus;
+    @XmlElement(name = "serviceName")
+    @CsvBindByPosition(position = 3)
+    private String serviceName;
+
+    @XmlElement(name = "priceForService")
+    @CsvBindByPosition(position = 5)
+    private double price;
+
+    @XmlElement(name = "date")
+    @CsvBindByPosition(position = 6)
+    private Date date;
 
     public History(){
 
     }
 
-    public Pet getPetObj() {
-        return petObj;
+    public String getPetName() {
+        return petName;
     }
 
-    public void setPetObj(Pet petObj) {
-        this.petObj = petObj;
+    public void setPetName(String petName) {
+        this.petName = petName;
     }
 
-    public Service getSerObj() {
-        return serObj;
+    public String getPetId() {
+        return petId;
     }
 
-    public void setSerObj(Service serObj) {
-        this.serObj = serObj;
+    public void setPetId(String petId) {
+        this.petId = petId;
     }
 
-    public String getSerResult() {
-        return serResult;
+    public String getOwnerId() {
+        return ownerId;
     }
 
-    public void setSerResult(String serResult) {
-        this.serResult = serResult;
+    public void setOwnerId(String ownerId) {
+        this.ownerId = ownerId;
     }
 
-    public String getPetStatus() {
-        return petStatus;
+    public String getServiceName() {
+        return serviceName;
     }
 
-    public void setPetStatus(String petStatus) {
-        this.petStatus = petStatus;
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
     }
 
-    public void addHistoryOfPet(String id) throws Exception {
-        DataProviderXML dataProvider = new DataProviderXML();
-        //petObj = dataProvider.getPetRecordByID(id);
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
     }
 }

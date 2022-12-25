@@ -22,8 +22,10 @@ public class DataProviderXML implements IDataProvider {
 
     static ConfigUtils config = new ConfigUtils();
 
-    public <T> List<T> getAllRecords(String path) throws FileNotFoundException {
-        FileInputStream fis = new FileInputStream(path);
+    public <T> List<T> getAllRecords(String path) throws IOException {
+        File file = new File(path);
+        file.createNewFile();
+        FileInputStream fis = new FileInputStream(file);
         InputStreamReader inputData = new InputStreamReader(fis);
         try {
             context = JAXBContext.newInstance(XmlWrapper.class);
@@ -64,13 +66,6 @@ public class DataProviderXML implements IDataProvider {
         if (!list.stream().anyMatch(s -> ((Owner) s).getBankAccount() == object.getBankAccount())) {
             object.setId(createId());
             list.add(object);
-            object.getOwnerPets().stream().forEach(ow -> {
-                try {
-                    savePetRecord(ow, object.getId());
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            });
             initRecord(list, config.getConfigurationEntry(OWNER_XML));
         } else {
             throw new Exception("Owner with those parameters has been created previously");
@@ -79,15 +74,53 @@ public class DataProviderXML implements IDataProvider {
 
     @Override
     public void savePetRecord(Pet object, String ownerId) throws Exception {
-        List<Pet> list = getAllRecords(config.getConfigurationEntry(PET_XML));
+        String path = PET_XML;
+        switch (object.getType()) {
+            case "cat":
+                path = CAT_XML;
+                break;
+            case "dog":
+                path = DOG_XML;
+                break;
+            case "bird":
+                path = BIRD_XML;
+                break;
+            case "fish":
+                path = FISH_XML;
+                break;
+            default:
+                break;
+        }
+        List<Pet> list = getAllRecords(config.getConfigurationEntry(path));
+        List<Pet> general = getAllRecords(config.getConfigurationEntry(PET_XML));
+        object.setId(createId());
+        object.setOwnerId(ownerId);
         if (list.stream().noneMatch(s -> ((((Pet) s).getNameOfDisease().equals(object.getNameOfDisease())) && (((Pet) s).getName().equals(object.getName())) && (((Pet) s).getType().equals(object.getType())) && (((Pet) s).getFeedType().equals(object.getFeedType()))))) {
-            object.setOwnerId(ownerId);
-            object.setId(createId());
             list.add(object);
+            general.add(object);
             log.debug(list);
-            initRecord(list, config.getConfigurationEntry(PET_XML));
+            initRecord(list, config.getConfigurationEntry(path));
+            initRecord(general, config.getConfigurationEntry(PET_XML));
         } else {
             throw new Exception("Impossible to save pet, owner with this id not found, check owner's id");
+        }
+    }
+
+    @Override
+    public void saveHistoryRecord(Pet pet, Service serv) throws Exception {
+        List<History> list = getAllRecords("src/main/resources/HistoryFiles/" + pet.getId() + ".xml");
+        History historyObj = new History();
+        try {
+            historyObj.setPetId(pet.getId());
+            historyObj.setPetName(pet.getName());
+            historyObj.setOwnerId(pet.getOwnerId());
+            historyObj.setServiceName(serv.getNameOfService());
+            historyObj.setPrice(serv.getCost());
+            historyObj.setDate(serv.getDate());
+            list.add(historyObj);
+            initRecord(list, "src/main/resources/HistoryFiles/" + pet.getId() + ".xml");
+        }catch (Exception e){
+            log.error("Data error...");
         }
     }
 
@@ -145,19 +178,16 @@ public class DataProviderXML implements IDataProvider {
 
 
     @Override
-    public void deleteOwnerRecord(String id) throws Exception {
-        List<Owner> list = getAllRecords(config.getConfigurationEntry(OWNER_XML));
-        if (list.removeIf(ow -> ow.getId().equals(id))) {
-            deletePetRecordByOwnerId(id);
-            log.info("Owner has been deleted");
-        } else
-            throw new Exception("Delete owner error, check ID");
-        initRecord(list, config.getConfigurationEntry(OWNER_XML));
-    }
-
-    @Override
-    public void deletePetRecordByOwnerId(String id) throws Exception {
+    public void findForDelPetByOwner(String id) throws Exception {
         List<Pet> list = getAllRecords(config.getConfigurationEntry(PET_XML));
+        if (list.stream().noneMatch(p -> p.getOwnerId().equals(id))) {
+            throw new Exception("WARNING: Owner doesn't have any pets. Only owner will be delete");
+        }
+        for (Pet pet : list) {
+            if (pet.getOwnerId().equals(id)) {
+                deletePetRecord(pet);
+            }
+        }
         if (list.removeIf(s -> s.getOwnerId().equals(id))) {
             log.info("Pet has been deleted");
         } else
@@ -165,17 +195,62 @@ public class DataProviderXML implements IDataProvider {
         initRecord(list, config.getConfigurationEntry(PET_XML));
     }
 
+    @Override
+    public void deleteOwnerRecord(String id) throws Exception {
+        List<Owner> list = getAllRecords(config.getConfigurationEntry(OWNER_XML));
+        if (list.removeIf(ow -> ow.getId().equals(id))) {
+            try {
+                findForDelPetByOwner(id);
+            } catch (Exception e) {
+                log.warn("WARNING: Owner doesn't have any pets. Only owner will be delete");
+            }
+            log.info("Owner has been deleted");
+        } else
+            throw new Exception("Delete owner error, check ID");
+        initRecord(list, config.getConfigurationEntry(OWNER_XML));
+    }
 
     @Override
-    public void deletePetRecordById(String id) throws Exception {
+    public void deletePetRecord(Pet pet) throws Exception {
+        String path = PET_XML;
+        switch (pet.getType()) {
+            case "cat":
+                path = CAT_XML;
+                break;
+            case "dog":
+                path = DOG_XML;
+                break;
+            case "bird":
+                path = BIRD_XML;
+                break;
+            case "fish":
+                path = FISH_XML;
+                break;
+            default:
+                break;
+        }
+        List<Pet> list = getAllRecords(config.getConfigurationEntry(path));
+        if (list.removeIf(s -> s.getId().equals(pet.getId()))) {
+            log.info("Pet has been deleted");
+        } else
+            throw new Exception("Delete pet error, check ID");
+        initRecord(list, config.getConfigurationEntry(path));
+    }
+
+    @Override
+    public void deleteOnePetRecord(String id) throws Exception {
         List<Pet> list = getAllRecords(config.getConfigurationEntry(PET_XML));
+        for (Pet pet : list) {
+            if (pet.getId().equals(id)) {
+                deletePetRecord(pet);
+            }
+        }
         if (list.removeIf(s -> s.getId().equals(id))) {
             log.info("Pet has been deleted");
         } else
             throw new Exception("Delete pet error, check ID");
         initRecord(list, config.getConfigurationEntry(PET_XML));
     }
-
 
     @Override
     public void deleteFeedRecord(String id) throws Exception {
@@ -190,7 +265,7 @@ public class DataProviderXML implements IDataProvider {
     @Override
     public void deleteDrugRecord(String id) throws Exception {
         List<Drug> list = getAllRecords(config.getConfigurationEntry(DRUG_XML));
-        if(list.removeIf(s -> s.getId().equals(id))){
+        if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Drug has been deleted");
         } else
             throw new Exception("Delete drug error, check ID");
@@ -200,7 +275,7 @@ public class DataProviderXML implements IDataProvider {
     @Override
     public void deleteDiseaseRecord(String id) throws Exception {
         List<Disease> list = getAllRecords(config.getConfigurationEntry(DISEASE_XML));
-        if(list.removeIf(s -> s.getId().equals(id))){
+        if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Disease has been deleted");
         } else
             throw new Exception("Delete disease error, check ID");
@@ -210,11 +285,54 @@ public class DataProviderXML implements IDataProvider {
     @Override
     public void deleteEnvironmentVariantRecord(String id) throws Exception {
         List<EnvironmentVariant> list = getAllRecords(config.getConfigurationEntry(ENVVAR_XML));
-        if(list.removeIf(s -> s.getId().equals(id))){
+        if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Environment variant has been deleted");
         } else
             throw new Exception("Delete environment variant error, check ID");
         initRecord(list, config.getConfigurationEntry(ENVVAR_XML));
+    }
+
+
+    @Override
+    public Pet findForGetPetRecordByOwnerId(String id) throws Exception {
+        List<Pet> list = getAllRecords(config.getConfigurationEntry(PET_XML));
+        if (list.stream().noneMatch(p -> p.getOwnerId().equals(id))) {
+            return null;
+        }
+        for (Pet pet : list) {
+            if (pet.getOwnerId().equals(id)) {
+                return getPet(pet);
+            }
+        }
+        throw new Exception("Error at get owner's list of pets");
+    }
+
+
+    @Override
+    public Pet getPet(Pet pet) throws Exception {
+        String path = PET_XML;
+        switch (pet.getType()) {
+            case "cat":
+                path = CAT_XML;
+                break;
+            case "dog":
+                path = DOG_XML;
+                break;
+            case "bird":
+                path = BIRD_XML;
+                break;
+            case "fish":
+                path = FISH_XML;
+                break;
+            default:
+                break;
+        }
+        List<Pet> list = getAllRecords(config.getConfigurationEntry(path));
+        for (Pet p : list) {
+            if (p.getId().equals(pet.getId()))
+                return p;
+        }
+        throw new Exception("Error in method getPet");
     }
 
     @Override
@@ -223,7 +341,6 @@ public class DataProviderXML implements IDataProvider {
         for (Owner owner : list) {
             log.debug("get record with id " + id);
             if (owner.getId().equals(id)) {
-                owner.addPetToOwner(getPetRecordByOwnerID(id));
                 return owner;
             }
         }
@@ -236,7 +353,7 @@ public class DataProviderXML implements IDataProvider {
         for (Pet pet : list) {
             log.debug("get record with id " + id);
             if (pet.getOwnerId().equals(id)) {
-                return pet;
+                return findForGetPetRecordByOwnerId(id);
             }
         }
         throw new Exception("Record not found");
@@ -248,10 +365,19 @@ public class DataProviderXML implements IDataProvider {
         for (Pet pet : list) {
             log.debug("get record with id " + id);
             if (pet.getId().equals(id)) {
-                return pet;
+                return getPet(pet);
             }
         }
         throw new Exception("Record not found");
+    }
+
+    @Override
+    public List<History> getHistoryRecords(String id) throws Exception {
+        List<History> list = getAllRecords("src/main/resources/HistoryFiles/" + id + ".xml");
+        if(list.isEmpty()){
+            throw new Exception("File is empty");
+        }
+        return list;
     }
 
     @Override

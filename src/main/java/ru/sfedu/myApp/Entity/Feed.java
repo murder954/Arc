@@ -1,5 +1,6 @@
 package ru.sfedu.myApp.Entity;
 
+import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -12,23 +13,31 @@ import java.util.Objects;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Feed {
     @XmlElement(name = "feedName")
+    @CsvBindByPosition(position = 0)
     private String feedName;
-
     @XmlElement(name = "feedId")
+    @CsvBindByPosition(position = 1)
     private String id;
     @XmlElement(name = "priceForPack")
+    @CsvBindByPosition(position = 2)
     private double priceForPack;
     @XmlElement(name = "weightOfPack")
+    @CsvBindByPosition(position = 3)
     private double weightOfPack;
+
+    @XmlElement(name = "forPet")
+    @CsvBindByPosition(position = 4)
+    private String forPetType;
 
     public Feed() {
 
     }
 
-    public Feed(String feedName, double priceForPack, double weightOfPack) {
+    public Feed(String feedName, double priceForPack, double weightOfPack, String forPetType) {
         this.feedName = feedName;
         this.priceForPack = priceForPack;
         this.weightOfPack = weightOfPack;
+        this.forPetType = forPetType;
     }
 
     public void setFeedName(String feedName) {
@@ -47,6 +56,10 @@ public class Feed {
         this.weightOfPack = weightOfPack;
     }
 
+    public void setForPetType(String forPetType) {
+        this.forPetType = forPetType;
+    }
+
     public String getFeedName() {
         return feedName;
     }
@@ -61,6 +74,10 @@ public class Feed {
 
     public double getWeightOfPack() {
         return weightOfPack;
+    }
+
+    public String getForPetType() {
+        return forPetType;
     }
 
     @Override

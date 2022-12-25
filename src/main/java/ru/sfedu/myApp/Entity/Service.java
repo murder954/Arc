@@ -3,9 +3,7 @@ package ru.sfedu.myApp.Entity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
 import java.util.Date;
-
 
 public class Service {
 
@@ -17,7 +15,6 @@ public class Service {
 
     private String nameOfService;
 
-    private String resultOfService;
 
     Logger log = LogManager.getLogger(Service.class);
 

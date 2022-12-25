@@ -1,9 +1,9 @@
 package ru.sfedu.myApp.Entity;
 
+import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.sfedu.myApp.PetTypes;
 
 import java.util.Objects;
 
@@ -11,25 +11,32 @@ import java.util.Objects;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Pet {
-
-    private PetTypes petTypes;
     @XmlElement(name = "name")
+    @CsvBindByPosition(position = 0)
     private String name;
     @XmlElement(name = "id")
+    @CsvBindByPosition(position = 1)
     private String id;
     @XmlElement(name = "gender")
+    @CsvBindByPosition(position = 2)
     private String gender;
     @XmlElement(name = "weight")
+    @CsvBindByPosition(position = 3)
     private double weight;
     @XmlElement(name = "feedType")
+    @CsvBindByPosition(position = 4)
     private String feedType;
     @XmlElement(name = "type")
-    private PetTypes type;
+    @CsvBindByPosition(position = 5)
+    private String type;
     @XmlElement(name = "age")
+    @CsvBindByPosition(position = 6)
     private int age;
     @XmlElement(name = "disease")
+    @CsvBindByPosition(position = 7)
     private String nameOfDisease;
     @XmlElement(name = "ownerId")
+    @CsvBindByPosition(position = 8)
     private String ownerId;
 
     @XmlTransient
@@ -39,7 +46,7 @@ public class Pet {
 
     }
 
-    public Pet(String name, String gender, double weight, String feedType, PetTypes type, int age, String nameOfDisease) {
+    public Pet(String name, String gender, double weight, String feedType, String type, int age, String nameOfDisease) {
         this.name = name;
         this.gender = gender;
         this.weight = weight;
@@ -69,7 +76,7 @@ public class Pet {
         this.feedType = feedType;
     }
 
-    public void setType(PetTypes type) {
+    public void setType(String type) {
         this.type = type;
     }
 
@@ -105,7 +112,7 @@ public class Pet {
         return feedType;
     }
 
-    public PetTypes getType() {
+    public String getType() {
         return type;
     }
 
@@ -126,7 +133,7 @@ public class Pet {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Pet pet = (Pet) o;
-        return Double.compare(pet.weight, weight) == 0 && age == pet.age && name.equals(pet.name) && id.equals(pet.id) && gender.equals(pet.gender) && feedType.equals(pet.feedType) && type == pet.type && nameOfDisease.equals(pet.nameOfDisease) && ownerId.equals(pet.ownerId);
+        return Double.compare(pet.weight, weight) == 0 && age == pet.age && name.equals(pet.name) && id.equals(pet.id) && gender.equals(pet.gender) && feedType.equals(pet.feedType) && type.equals(pet.type) && nameOfDisease.equals(pet.nameOfDisease) && ownerId.equals(pet.ownerId);
     }
 
     @Override

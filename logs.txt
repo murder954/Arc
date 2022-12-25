@@ -193,3 +193,130 @@
 10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:22 - Планета: [Earth,  Jupiter]
 10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
 10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
+11.23:06.25.55 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - Pet NameJonny
+11.23:06.37.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.23:06.39.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.23:06.39.06 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.23:06.39.38 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest huiUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.23:06.39.38 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.23:06.41.31 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.23:06.41.31 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.29:17.54.48 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.29:17.54.48 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.29:17.58.09 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.29:17.58.09 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.29:17.58.37 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.29:17.58.37 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.29:21.16.44 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.29:21.16.44 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:08.22.49 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Constructor not matched for class ru.sfedu.myApp.Entity.Pet
+11.30:08.22.49 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:08.33.36 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Annotation @org.simpleframework.xml.Attribute(name="type", required=true, empty="") must mark a set or get method
+11.30:08.33.36 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Content is not allowed in prolog.
+11.30:08.35.00 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Annotation @org.simpleframework.xml.Attribute(name="type", required=true, empty="") must mark a set or get method
+11.30:08.35.00 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Content is not allowed in prolog.
+11.30:08.44.09 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - Pet NameJonny
+11.30:08.44.09 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:08.46.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Entity.Pet.name for class ru.sfedu.myApp.Entity.Pet at line 1
+11.30:08.46.17 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:08.53.03 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - Pet Name: Jonny
+11.30:08.53.03 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:09.03.09 INFO	ru.sfedu.lab1.Lab1LogsClient:26 - Pet Name: Jonny
+11.30:09.03.09 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:09.37.30 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.myApp.Entity.XmlWrapper@424e1977
+11.30:09.37.30 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:09.38.15 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.myApp.Entity.XmlWrapper@424e1977
+11.30:09.38.15 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:09.39.27 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="", type=void.class, data=false, required=true) on field 'pets' private java.util.HashMap ru.sfedu.myApp.Entity.XmlWrapper.pets for class ru.sfedu.myApp.Entity.XmlWrapper at line 1
+11.30:09.39.27 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
+Message: Premature end of file.
+11.30:15.50.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="wrapper", type=void.class, data=false, required=true) on field 'list' java.util.List ru.sfedu.myApp.Entity.XmlWrapper.list for class ru.sfedu.myApp.Entity.XmlWrapper at line 1
+11.30:15.59.22 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTest Implementation of JAXB-API has not been found on module path or classpath.
+11.30:16.04.03 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.06.22 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.07.38 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.11.36 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.19.26 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.24.46 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.24.46 INFO	ru.sfedu.lab1.Lab1LogsClient:36 - SimpleTestCannot invoke "javax.xml.bind.JAXBContext.createMarshaller()" because "this.context" is null
+11.30:16.28.30 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.28.30 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTest (Системе не удается найти указанный путь)
+11.30:16.28.50 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.28.50 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "javax.xml.bind.JAXBContext.createMarshaller()" because "this.context" is null
+11.30:16.29.37 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.29.37 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "javax.xml.bind.JAXBContext.createMarshaller()" because "this.context" is null
+11.30:16.30.59 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.30.59 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTest1 counts of IllegalAnnotationExceptions
+11.30:16.31.19 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:16.31.19 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.41.01 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.41.01 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.41.18 INFO	ru.sfedu.lab1.Lab1LogsClient:28 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.41.18 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.47.09 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:16.47.09 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.02.05 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:17.02.05 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.03.39 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
+11.30:17.03.39 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTest1 counts of IllegalAnnotationExceptions
+11.30:17.04.17 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.04.17 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.05.46 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.05.46 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.06.10 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.06.38 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.06.46 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.10.39 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestCannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+11.30:17.11.05 INFO	ru.sfedu.lab1.Lab1LogsClient:38 - SimpleTestImplementation of JAXB-API has not been found on module path or classpath.
+11.30:17.12.14 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Implementation of JAXB-API has not been found on module path or classpath.
+11.30:17.12.14 INFO	ru.sfedu.lab1.Lab1LogsClient:36 - SimpleTestImplementation of JAXB-API has not been found on module path or classpath.
+11.30:17.14.40 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Implementation of JAXB-API has not been found on module path or classpath.
+11.30:17.14.40 INFO	ru.sfedu.lab1.Lab1LogsClient:36 - SimpleTestImplementation of JAXB-API has not been found on module path or classpath.
+11.30:17.15.14 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Implementation of JAXB-API has not been found on module path or classpath.
+11.30:17.15.14 INFO	ru.sfedu.lab1.Lab1LogsClient:36 - SimpleTestImplementation of JAXB-API has not been found on module path or classpath.
+11.30:17.17.34 INFO	ru.sfedu.lab1.Lab1LogsClient:26 - SimpleTest unexpected element (uri:"", local:"wrapper"). Expected elements are <{}pet>,<{}xmlWrapper>
+11.30:17.24.16 INFO	ru.sfedu.lab1.Lab1LogsClient:26 - SimpleTest unexpected element (uri:"", local:"wrapper"). Expected elements are <{}pet>,<{}xmlWrapper>
+11.30:17.34.17 INFO	ru.sfedu.lab1.Lab1LogsClient:26 - SimpleTest unexpected element (uri:"", local:"XmlWrapper"). Expected elements are <{}pet>,<{}xmlWrapper>
+12.04:15.20.26 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.23.22 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.24.34 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.38.17 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.42.18 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.48.07 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 1 out of bounds for length 0
+12.04:15.49.45 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 0 out of bounds for length 0
+12.04:15.50.42 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 0 out of bounds for length 0
+12.04:16.20.26 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 0 out of bounds for length 0
+12.04:17.00.02 INFO	ru.sfedu.lab1.Lab1LogsClient:58 - SimpleTestIndex 0 out of bounds for length 0
+12.04:18.00.43 INFO	ru.sfedu.lab1.Lab1LogsClient:61 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.01.01 INFO	ru.sfedu.lab1.Lab1LogsClient:62 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.03.25 INFO	ru.sfedu.lab1.Lab1LogsClient:65 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.04.59 INFO	ru.sfedu.lab1.Lab1LogsClient:63 - SimpleTestIndex 0 out of bounds for length 0
+12.04:18.05.27 INFO	ru.sfedu.lab1.Lab1LogsClient:63 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.06.00 INFO	ru.sfedu.lab1.Lab1LogsClient:64 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.06.19 INFO	ru.sfedu.lab1.Lab1LogsClient:65 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.06.44 INFO	ru.sfedu.lab1.Lab1LogsClient:61 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.11.34 INFO	ru.sfedu.lab1.Lab1LogsClient:61 - SimpleTestIndex 1 out of bounds for length 0
+12.04:18.21.55 INFO	ru.sfedu.lab1.Lab1LogsClient:62 - SimpleTestIndex 1 out of bounds for length 1
+12.04:18.23.04 INFO	ru.sfedu.lab1.Lab1LogsClient:62 - SimpleTestIndex 1 out of bounds for length 1
+12.04:18.28.44 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - SimpleTest 1 counts of IllegalAnnotationExceptions
+12.04:18.28.44 INFO	ru.sfedu.lab1.Lab1LogsClient:62 - SimpleTest1 counts of IllegalAnnotationExceptions
+12.04:18.28.44 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - SimpleTest 1 counts of IllegalAnnotationExceptions
+12.04:18.29.48 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - SimpleTest 1 counts of IllegalAnnotationExceptions
+12.04:18.29.48 INFO	ru.sfedu.lab1.Lab1LogsClient:62 - SimpleTesthui1 counts of IllegalAnnotationExceptions
+12.04:18.29.48 INFO	ru.sfedu.lab1.Lab1LogsClient:29 - SimpleTest 1 counts of IllegalAnnotationExceptions

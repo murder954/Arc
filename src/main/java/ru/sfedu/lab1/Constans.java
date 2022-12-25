@@ -7,4 +7,6 @@ public class Constans {
     public static final String PLANET = "Planet";
     public static final String PLANETS = "Planets";
     public static final String MONTH = "Month";
+
+    public static final String PATHNAME = "Pet";
 }

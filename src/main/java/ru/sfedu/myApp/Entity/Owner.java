@@ -1,31 +1,31 @@
 package ru.sfedu.myApp.Entity;
 
+import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.*;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Owner {
     @XmlElement(name = "ownerId")
+    @CsvBindByPosition(position = 0)
     private String id;
 
     @XmlElement(name = "ownerName")
+    @CsvBindByPosition(position = 1)
     private String ownerName;
 
     @XmlElement(name = "phone")
+    @CsvBindByPosition(position = 2)
     private String phoneNumber;
 
     @XmlElement(name = "email")
+    @CsvBindByPosition(position = 3)
     private String email;
 
     @XmlElement(name = "bankAccount")
+    @CsvBindByPosition(position = 4)
     private long bankAccount;
-
-    @XmlTransient
-    private List<Pet> ownerPets = new ArrayList<>();
 
 
     public Owner() {
@@ -79,22 +79,6 @@ public class Owner {
         this.bankAccount = bankAccount;
     }
 
-    public List<Pet> getOwnerPets() {
-        return ownerPets;
-    }
-
-    public void setOwnerPets(List<Pet> ownerPets) {
-        this.ownerPets = ownerPets;
-    }
-
-    public void addPetToOwner(Pet pet) throws Exception {
-        if (!ownerPets.contains(pet)) {
-            ownerPets.add(pet);
-        } else {
-            throw new Exception("This pet has already been added");
-        }
-    }
-
     public boolean checkOwner(Owner owner) throws Exception {
         if(bankAccount == owner.getBankAccount()){
             return true;
@@ -106,11 +90,11 @@ public class Owner {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Owner owner = (Owner) o;
-        return bankAccount == owner.bankAccount && id.equals(owner.id) && ownerName.equals(owner.ownerName) && phoneNumber.equals(owner.phoneNumber) && email.equals(owner.email) && Objects.equals(ownerPets, owner.ownerPets);
+        return bankAccount == owner.bankAccount && id.equals(owner.id) && ownerName.equals(owner.ownerName) && phoneNumber.equals(owner.phoneNumber) && email.equals(owner.email);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, ownerName, phoneNumber, email, bankAccount, ownerPets);
+        return Objects.hash(id, ownerName, phoneNumber, email, bankAccount);
     }
 }

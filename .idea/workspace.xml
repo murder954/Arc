@@ -9,12 +9,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="Create test for Data provider Xml">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab1Logs_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab1Logs_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs" beforeDir="false" afterPath="$PROJECT_DIR$/logs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab1Logs_jar/Lab1Logs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab1Logs_jar/Lab1Logs.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Constans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Constans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Lab1LogsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Lab1LogsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/lab1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Disease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Disease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/EnvironmentVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/EnvironmentVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Treatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/XmlWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/XmlWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/IDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/IDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/PetTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Env.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Env.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Env2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Env2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Environment.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Environment.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/Lab1LogsClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/Lab1LogsClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/PlanetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/PlanetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderXMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderXMLTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +59,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -34,6 +71,16 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2EhvYIMVlzlpYQTuB5hpvoJP6mZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,6 +97,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/murder954/Рабочий стол/hehehehe&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,87 +106,104 @@
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/CSVFiles" />
+      <recent name="$PROJECT_DIR$/src/main/resources/XMLFiles" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.sfedu.myApp" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.sfedu.myApp" />
       <recent name="ru.sfedu.lab1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.sfedu.myApp" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.lab1.Main" />
+  <component name="RunManager" selected="JUnit.LogicTest.logicTest">
+    <configuration name="DataProviderCSVTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sfedu.lab1.*" />
+          <option name="PATTERN" value="ru.sfedu.myApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.DataProviderCSVTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Planet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.lab1.Planet" />
+    <configuration name="DataProviderXMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sfedu.lab1.*" />
+          <option name="PATTERN" value="ru.sfedu.myApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.DataProviderXMLTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlanetTest.listOfPlanets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataProviderXMLTest.getEnvironmentVariantRecordByIDPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sfedu.lab1.*" />
+          <option name="PATTERN" value="ru.sfedu.myApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sfedu.lab1" />
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.lab1.PlanetTest" />
-      <option name="METHOD_NAME" value="listOfPlanets" />
+      <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.DataProviderXMLTest" />
+      <option name="METHOD_NAME" value="getEnvironmentVariantRecordByIDPositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlanetTest.nameOfMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicTest.logicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sfedu.lab1.*" />
+          <option name="PATTERN" value="ru.sfedu.myApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sfedu.lab1" />
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.lab1.PlanetTest" />
-      <option name="METHOD_NAME" value="nameOfMonth" />
+      <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.LogicTest" />
+      <option name="METHOD_NAME" value="logicTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlanetTest.nameOfPlanet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogicTest.saveHistoryRecord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.sfedu.lab1.*" />
+          <option name="PATTERN" value="ru.sfedu.myApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.sfedu.lab1" />
-      <option name="MAIN_CLASS_NAME" value="ru.sfedu.lab1.PlanetTest" />
-      <option name="METHOD_NAME" value="nameOfPlanet" />
+      <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
+      <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.LogicTest" />
+      <option name="METHOD_NAME" value="saveHistoryRecord" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Planet" />
-        <item itemvalue="JUnit.PlanetTest.listOfPlanets" />
-        <item itemvalue="JUnit.PlanetTest.nameOfMonth" />
-        <item itemvalue="JUnit.PlanetTest.nameOfPlanet" />
+        <item itemvalue="JUnit.LogicTest.logicTest" />
+        <item itemvalue="JUnit.DataProviderXMLTest" />
+        <item itemvalue="JUnit.DataProviderXMLTest.getEnvironmentVariantRecordByIDPositive" />
+        <item itemvalue="JUnit.LogicTest.saveHistoryRecord" />
+        <item itemvalue="JUnit.DataProviderCSVTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +249,99 @@
       <workItem from="1666416745849" duration="1648000" />
       <workItem from="1666527870381" duration="4047000" />
       <workItem from="1666857442639" duration="2256000" />
+      <workItem from="1666866198734" duration="615000" />
+      <workItem from="1667317290713" duration="2033000" />
+      <workItem from="1668097704862" duration="13000" />
+      <workItem from="1668167562567" duration="1583000" />
+      <workItem from="1668575795915" duration="1176000" />
+      <workItem from="1668577275776" duration="595000" />
+      <workItem from="1669169034407" duration="5857000" />
+      <workItem from="1669720985398" duration="171000" />
+      <workItem from="1669722687419" duration="11466000" />
+      <workItem from="1669744770315" duration="892000" />
+      <workItem from="1669745724989" duration="193000" />
+      <workItem from="1669785483712" duration="6418000" />
+      <workItem from="1669811967420" duration="8814000" />
+      <workItem from="1669896628986" duration="18000" />
+      <workItem from="1670147308348" duration="26074000" />
+      <workItem from="1670252524990" duration="9873000" />
+      <workItem from="1670265832977" duration="1924000" />
+      <workItem from="1670318516605" duration="13748000" />
+      <workItem from="1670344511099" duration="11966000" />
+      <workItem from="1670389221167" duration="7501000" />
+      <workItem from="1670402628369" duration="766000" />
+      <workItem from="1670419856605" duration="10582000" />
+      <workItem from="1670445920804" duration="129000" />
+      <workItem from="1670446074520" duration="52000" />
+      <workItem from="1670479863874" duration="13186000" />
+      <workItem from="1670498552344" duration="32580000" />
+      <workItem from="1670573763986" duration="27503000" />
+      <workItem from="1670921018273" duration="4990000" />
+      <workItem from="1670934629825" duration="17540000" />
+      <workItem from="1670995032498" duration="4648000" />
+      <workItem from="1671034720546" duration="7352000" />
+      <workItem from="1671269656575" duration="24345000" />
+      <workItem from="1671360902116" duration="4251000" />
+      <workItem from="1671444854109" duration="3269000" />
+      <workItem from="1671454683989" duration="6789000" />
+      <workItem from="1671522340822" duration="29108000" />
+      <workItem from="1671601247003" duration="3583000" />
+      <workItem from="1671646627035" duration="3937000" />
+      <workItem from="1671707362093" duration="22953000" />
+      <workItem from="1671782006114" duration="41846000" />
+      <workItem from="1671868636011" duration="4368000" />
+      <workItem from="1671973408190" duration="584000" />
     </task>
+    <task id="LOCAL-00001" summary="Create pet and extended entities">
+      <created>1670921330775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670921330775</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create service and extended entities">
+      <created>1670927575205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670927575205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create owner entity">
+      <created>1670927643105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670927643105</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create wrapper for Xml">
+      <created>1670927676901</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670927676901</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create history entity">
+      <created>1670927703027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670927703027</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create Data Provider for Xml">
+      <created>1670927756954</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670927756954</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create test for Data provider Xml">
+      <created>1670928252623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670928252623</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +357,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create pet and extended entities" />
+    <MESSAGE value="Create service and extended entities" />
+    <MESSAGE value="Create constans and config utils" />
+    <MESSAGE value="Create owner entity" />
+    <MESSAGE value="Create wrapper for Xml" />
+    <MESSAGE value="Create history entity" />
+    <MESSAGE value="Create interface Data Provider" />
+    <MESSAGE value="Create Data Provider for Xml" />
+    <MESSAGE value="Create test for Data provider Xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create test for Data provider Xml" />
   </component>
 </project>

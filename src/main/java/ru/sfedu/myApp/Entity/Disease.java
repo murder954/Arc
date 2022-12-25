@@ -1,5 +1,6 @@
 package ru.sfedu.myApp.Entity;
 
+import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
@@ -9,12 +10,16 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Disease {
     @XmlElement(name = "disease")
+    @CsvBindByPosition(position = 0)
     private String nameOfDisease;
     @XmlElement(name = "diseaseId")
+    @CsvBindByPosition(position = 1)
     private String id;
     @XmlElement(name = "treatment_time")
+    @CsvBindByPosition(position = 2)
     private int treatmentTime;
     @XmlElement(name = "forTreatment")
+    @CsvBindByPosition(position = 3)
     private String forTreatment;
 
     public Disease() {

@@ -6,11 +6,11 @@ import java.util.Date;
 
 public class Treatment extends Service {
 
-    private double treatmentTime;
+    private int treatmentTime;
 
     private String drugName;
 
-    private String forDisease;
+    private String diseaseName;
 
     private double priceForPack;
 
@@ -22,17 +22,17 @@ public class Treatment extends Service {
 
     }
 
-    public Treatment(double cost, String id, Date date, String nameOfService, double treatmentTime, String drugName, String forDisease, double priceForPack, int piecesInPack, int intensityPerDay) {
+    public Treatment(double cost, String id, Date date, String nameOfService, int treatmentTime, String drugName, String diseaseName, double priceForPack, int piecesInPack, int intensityPerDay) {
         super(cost, id, date, nameOfService);
         this.treatmentTime = treatmentTime;
         this.drugName = drugName;
-        this.forDisease = forDisease;
+        this.diseaseName = diseaseName;
         this.priceForPack = priceForPack;
         this.piecesInPack = piecesInPack;
         this.intensityPerDay = intensityPerDay;
     }
 
-    public void setTreatmentTime(double treatmentTime) {
+    public void setTreatmentTime(int treatmentTime) {
         this.treatmentTime = treatmentTime;
     }
 
@@ -40,8 +40,8 @@ public class Treatment extends Service {
         this.drugName = drugName;
     }
 
-    public void setForDisease(String forDisease) {
-        this.forDisease = forDisease;
+    public void setDiseaseName(String diseaseName) {
+        this.diseaseName = diseaseName;
     }
 
     public void setPriceForPack(double priceForPack) {
@@ -56,7 +56,7 @@ public class Treatment extends Service {
         this.intensityPerDay = intensityPerDay;
     }
 
-    public double getTreatmentTime() {
+    public int getTreatmentTime() {
         return treatmentTime;
     }
 
@@ -64,8 +64,8 @@ public class Treatment extends Service {
         return drugName;
     }
 
-    public String getForDisease() {
-        return forDisease;
+    public String getDiseaseName() {
+        return diseaseName;
     }
 
     public double getPriceForPack() {

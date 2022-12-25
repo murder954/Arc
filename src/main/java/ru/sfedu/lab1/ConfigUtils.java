@@ -8,7 +8,7 @@ public class ConfigUtils {
     private static String defaultConfigPath = "src/main/resources/Environment.properties";
     private static final Properties configuration = new Properties();
 
-    ConfigUtils(){
+    public ConfigUtils(){
         String str = System.getProperty("path");
         if (str != null){
             defaultConfigPath=str;

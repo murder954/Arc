@@ -1,10 +1,10 @@
 package ru.sfedu.myApp.Entity;
 
+import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import ru.sfedu.myApp.PetTypes;
 
 import java.util.Objects;
 
@@ -13,11 +13,13 @@ import java.util.Objects;
 public class Cat extends Pet {
 
     @XmlElement(name = "afraidDogs")
+    @CsvBindByPosition(position = 9)
     protected boolean afraidDogs;
     @XmlElement(name = "calm")
+    @CsvBindByPosition(position = 10)
     protected boolean isCalm;
 
-    public Cat(String name, String gender, double weight, String feedType, PetTypes type, int age, String nameOfDisease, boolean afraidDogs, boolean isCalm) {
+    public Cat(String name, String gender, double weight, String feedType, String type, int age, String nameOfDisease, boolean afraidDogs, boolean isCalm) {
         super(name, gender, weight, feedType, type, age, nameOfDisease);
         this.afraidDogs = afraidDogs;
         this.isCalm = isCalm;
