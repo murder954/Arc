@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="Send course work to B.B.">
+    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="Somewhere in class before set hibernate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" afterDir="false" />
@@ -293,6 +293,7 @@
       <workItem from="1675686360068" duration="7582000" />
       <workItem from="1675928420200" duration="963000" />
       <workItem from="1676370297854" duration="6479000" />
+      <workItem from="1676524948122" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="Create pet and extended entities">
       <created>1670921330775</created>
@@ -350,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671974066076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Somewhere in class before set hibernate">
+      <created>1676525395512</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676525395513</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +386,7 @@
     <MESSAGE value="Create Data Provider for Xml" />
     <MESSAGE value="Create test for Data provider Xml" />
     <MESSAGE value="Send course work to B.B." />
-    <option name="LAST_COMMIT_MESSAGE" value="Send course work to B.B." />
+    <MESSAGE value="Somewhere in class before set hibernate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Somewhere in class before set hibernate" />
   </component>
 </project>
