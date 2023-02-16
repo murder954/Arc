@@ -20,7 +20,13 @@ public class DataProviderXML implements IDataProvider {
 
     private JAXBContext context;
 
+    LoggingBeans logToHistory = new LoggingBeans();
+
     static ConfigUtils config = new ConfigUtils();
+
+    public DataProviderXML() throws IOException {
+
+    }
 
     public <T> List<T> getAllRecords(String path) throws IOException {
         File file = new File(path);
@@ -64,12 +70,12 @@ public class DataProviderXML implements IDataProvider {
     public void saveOwnerRecord(Owner object) throws Exception {
         List<Owner> list = getAllRecords(config.getConfigurationEntry(OWNER_XML));
         if (!list.stream().anyMatch(s -> ((Owner) s).getBankAccount() == object.getBankAccount())) {
-            object.setId(createId());
             list.add(object);
             initRecord(list, config.getConfigurationEntry(OWNER_XML));
         } else {
             throw new Exception("Owner with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveOwnerXML", object.getId());
     }
 
     @Override
@@ -104,6 +110,7 @@ public class DataProviderXML implements IDataProvider {
         } else {
             throw new Exception("Impossible to save pet, owner with this id not found, check owner's id");
         }
+        logToHistory.logObjectChange(object, "savePetXML", object.getId());
     }
 
     @Override
@@ -135,6 +142,7 @@ public class DataProviderXML implements IDataProvider {
         } else {
             throw new Exception("Feed with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveFeedXML", object.getId());
     }
 
     @Override
@@ -148,6 +156,7 @@ public class DataProviderXML implements IDataProvider {
         } else {
             throw new Exception("Drug with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveDrugXML", object.getId());
     }
 
     @Override
@@ -161,6 +170,7 @@ public class DataProviderXML implements IDataProvider {
         } else {
             throw new Exception("Disease with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveDiseaseXML", object.getId());
     }
 
     @Override
@@ -174,6 +184,7 @@ public class DataProviderXML implements IDataProvider {
         } else {
             throw new Exception("Environment Variant with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveVariantXML", object.getId());
     }
 
 
@@ -207,11 +218,14 @@ public class DataProviderXML implements IDataProvider {
             log.info("Owner has been deleted");
         } else
             throw new Exception("Delete owner error, check ID");
+        logToHistory.logObjectChange(getOwnerRecordByID(id), "deleteOwnerXML", id);
         initRecord(list, config.getConfigurationEntry(OWNER_XML));
     }
 
+
     @Override
     public void deletePetRecord(Pet pet) throws Exception {
+        logToHistory.logObjectChange(pet, "deletePetXML", pet.getId());
         String path = PET_XML;
         switch (pet.getType()) {
             case "cat":
@@ -254,6 +268,11 @@ public class DataProviderXML implements IDataProvider {
 
     @Override
     public void deleteFeedRecord(String id) throws Exception {
+        try {
+            logToHistory.logObjectChange(getFeedRecordByID(id), "deleteFeedXML", id);
+        }catch (Exception e){
+            throw new Exception("Error at saving Mongo DB record");
+        }
         List<Feed> list = getAllRecords(config.getConfigurationEntry(FEED_XML));
         if (list.removeIf(s -> s.getId().equals(id))) {
             log.info("Feed has been deleted");
@@ -264,6 +283,11 @@ public class DataProviderXML implements IDataProvider {
 
     @Override
     public void deleteDrugRecord(String id) throws Exception {
+        try {
+            logToHistory.logObjectChange(getDrugRecordByID(id), "deleteDrugXML", id);
+        }catch (Exception e){
+            throw new Exception("Error at saving Mongo DB record");
+        }
         List<Drug> list = getAllRecords(config.getConfigurationEntry(DRUG_XML));
         if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Drug has been deleted");
@@ -274,6 +298,11 @@ public class DataProviderXML implements IDataProvider {
 
     @Override
     public void deleteDiseaseRecord(String id) throws Exception {
+        try {
+            logToHistory.logObjectChange(getDiseaseRecordByID(id), "deleteDiseaseXML", id);
+        }catch (Exception e){
+            throw new Exception("Error at saving Mongo DB record");
+        }
         List<Disease> list = getAllRecords(config.getConfigurationEntry(DISEASE_XML));
         if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Disease has been deleted");
@@ -284,6 +313,11 @@ public class DataProviderXML implements IDataProvider {
 
     @Override
     public void deleteEnvironmentVariantRecord(String id) throws Exception {
+        try {
+            logToHistory.logObjectChange(getEnvironmentVariantRecordByID(id), "deleteVariantXML", id);
+        }catch (Exception e){
+            throw new Exception("Error at saving Mongo DB record");
+        }
         List<EnvironmentVariant> list = getAllRecords(config.getConfigurationEntry(ENVVAR_XML));
         if (list.removeIf(s -> s.getId().equals(id))) {
             log.debug("Environment variant has been deleted");
@@ -293,7 +327,7 @@ public class DataProviderXML implements IDataProvider {
     }
 
 
-    @Override
+
     public Pet findForGetPetRecordByOwnerId(String id) throws Exception {
         List<Pet> list = getAllRecords(config.getConfigurationEntry(PET_XML));
         if (list.stream().noneMatch(p -> p.getOwnerId().equals(id))) {
@@ -308,7 +342,7 @@ public class DataProviderXML implements IDataProvider {
     }
 
 
-    @Override
+
     public Pet getPet(Pet pet) throws Exception {
         String path = PET_XML;
         switch (pet.getType()) {

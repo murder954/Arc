@@ -292,7 +292,7 @@ class DataProviderXMLTest {
         Exception exception = assertThrows(Exception.class, () -> {
             dataProvider.deleteFeedRecord("sdgaerihejdjs");
         });
-        assertEquals("Delete feed error, check ID", exception.getMessage());
+        assertEquals("Error at saving Mongo DB record", exception.getMessage());
     }
 
     @Test
@@ -310,7 +310,7 @@ class DataProviderXMLTest {
         Exception exception = assertThrows(Exception.class, () -> {
             dataProvider.deleteDrugRecord("kpdsfpwe");
         });
-        assertEquals("Delete drug error, check ID", exception.getMessage());
+        assertEquals("Error at saving Mongo DB record", exception.getMessage());
     }
 
     @Test
@@ -328,7 +328,7 @@ class DataProviderXMLTest {
         Exception exception = assertThrows(Exception.class, () -> {
             dataProvider.deleteDiseaseRecord("sfdewsvvbfds");
         });
-        assertEquals("Delete disease error, check ID", exception.getMessage());
+        assertEquals("Error at saving Mongo DB record", exception.getMessage());
     }
 
     @Test
@@ -346,6 +346,6 @@ class DataProviderXMLTest {
         Exception exception = assertThrows(Exception.class, () -> {
             dataProvider.deleteEnvironmentVariantRecord("kmsdfsdfsdf");
         });
-        assertEquals("Delete environment variant error, check ID", exception.getMessage());
+        assertEquals("Error at saving Mongo DB record", exception.getMessage());
     }
 }

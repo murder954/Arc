@@ -7,6 +7,7 @@ import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.util.Objects;
+import java.util.UUID;
 
 
 @XmlRootElement
@@ -35,6 +36,7 @@ public class Feed {
 
     public Feed(String feedName, double priceForPack, double weightOfPack, String forPetType) {
         this.feedName = feedName;
+        this.id = UUID.randomUUID().toString();
         this.priceForPack = priceForPack;
         this.weightOfPack = weightOfPack;
         this.forPetType = forPetType;

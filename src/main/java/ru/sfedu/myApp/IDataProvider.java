@@ -42,9 +42,9 @@ public interface IDataProvider {
 
     void deleteEnvironmentVariantRecord(String id) throws Exception;
 
-    Pet findForGetPetRecordByOwnerId(String id) throws Exception;
+    //Pet findForGetPetRecordByOwnerId(String id) throws Exception;
 
-    Pet getPet(Pet pet) throws Exception;
+    //Pet getPet(Pet pet) throws Exception;
 
     Owner getOwnerRecordByID(String id) throws Exception;
 

@@ -20,6 +20,7 @@ import static ru.sfedu.myApp.Constans.*;
 public class DataProviderCSV implements IDataProvider{
 
     private static Logger log = LogManager.getLogger(DataProviderCSV.class);
+    LoggingBeans logToHistory = new LoggingBeans();
     static ConfigUtils config = new ConfigUtils();
 
     private String[] ownerHeader = {"ownerId", "ownerName", "phone", "email", "bankAccount"};
@@ -37,7 +38,7 @@ public class DataProviderCSV implements IDataProvider{
     private String[] envVarHeader = {"name", "id", "insideHouse", "features", "addition", "price", "forPet"};
 
 
-    public DataProviderCSV() {
+    public DataProviderCSV() throws IOException {
         log.debug("create dataProviderCSV...");
     }
 
@@ -121,18 +122,19 @@ public class DataProviderCSV implements IDataProvider{
         } else {
             throw new Exception("Impossible to save pet, owner with this id not found, check owner's id");
         }
+        logToHistory.logObjectChange(object, "savePetCSV", object.getId());
     }
 
     @Override
     public void saveOwnerRecord(Owner object) throws Exception {
         List<Owner> list = getAllRecords(ownerHeader, Owner.class, config.getConfigurationEntry(OWNER_CSV));
         if (!list.stream().anyMatch(s -> ((Owner) s).getBankAccount() == object.getBankAccount())) {
-            object.setId(createId());
             list.add(object);
             initRecord(list, ownerHeader, Owner.class, config.getConfigurationEntry(OWNER_CSV));
         } else {
             throw new Exception("Owner with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveOwnerCSV", object.getId());
     }
 
     @Override
@@ -164,6 +166,7 @@ public class DataProviderCSV implements IDataProvider{
         } else {
             throw new Exception("Feed with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveFeedCSV", object.getId());
     }
 
     @Override
@@ -177,6 +180,7 @@ public class DataProviderCSV implements IDataProvider{
         } else {
             throw new Exception("Drug with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveDrugCSV", object.getId());
     }
 
     @Override
@@ -190,6 +194,7 @@ public class DataProviderCSV implements IDataProvider{
         } else {
             throw new Exception("Disease with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveDiseaseCSV", object.getId());
     }
 
     @Override
@@ -203,6 +208,7 @@ public class DataProviderCSV implements IDataProvider{
         } else {
             throw new Exception("Environment Variant with those parameters has been created previously");
         }
+        logToHistory.logObjectChange(object, "saveVariantCSV", object.getId());
     }
 
 
@@ -228,8 +234,10 @@ public class DataProviderCSV implements IDataProvider{
             log.info("Owner has been deleted");
         } else
             throw new Exception("Delete owner error, check ID");
+        logToHistory.logObjectChange(getOwnerRecordByID(id), "deleteOwnerCSV", id);
         initRecord(list, ownerHeader, Owner.class, config.getConfigurationEntry(OWNER_CSV));
     }
+
 
     @Override
     public void deletePetRecord(Pet pet) throws Exception {
@@ -265,6 +273,7 @@ public class DataProviderCSV implements IDataProvider{
             log.info("Pet has been deleted");
         } else
             throw new Exception("Delete pet error, check ID");
+        logToHistory.logObjectChange(pet, "deletePetCSV", pet.getId());
         initRecord(list, header, cl, config.getConfigurationEntry(path));
     }
 
@@ -290,6 +299,7 @@ public class DataProviderCSV implements IDataProvider{
             log.info("Feed has been deleted");
         } else
             throw new Exception("Delete feed error, check ID");
+        logToHistory.logObjectChange(getFeedRecordByID(id), "deleteFeedCSV", id);
         initRecord(list, feedHeader, Feed.class, config.getConfigurationEntry(FEED_CSV));
     }
 
@@ -300,6 +310,7 @@ public class DataProviderCSV implements IDataProvider{
             log.debug("Drug has been deleted");
         } else
             throw new Exception("Delete drug error, check ID");
+        logToHistory.logObjectChange(getDrugRecordByID(id), "deleteDrugCSV", id);
         initRecord(list, drugHeader, Drug.class, config.getConfigurationEntry(DRUG_CSV));
     }
 
@@ -310,6 +321,7 @@ public class DataProviderCSV implements IDataProvider{
             log.debug("Disease has been deleted");
         } else
             throw new Exception("Delete disease error, check ID");
+        logToHistory.logObjectChange(getDiseaseRecordByID(id), "deleteDiseaseCSV", id);
         initRecord(list, diseaseHeader, Disease.class, config.getConfigurationEntry(DISEASE_CSV));
     }
 
@@ -320,11 +332,11 @@ public class DataProviderCSV implements IDataProvider{
             log.debug("Environment variant has been deleted");
         } else
             throw new Exception("Delete environment variant error, check ID");
+        logToHistory.logObjectChange(getEnvironmentVariantRecordByID(id), "deleteVariantCSV", id);
         initRecord(list, envVarHeader, EnvironmentVariant.class, config.getConfigurationEntry(ENVVAR_CSV));
     }
 
 
-    @Override
     public Pet findForGetPetRecordByOwnerId(String id) throws Exception {
         List<Pet> list = getAllRecords(petHeader, Pet.class, config.getConfigurationEntry(PET_CSV));
         if(list.stream().noneMatch(p -> p.getOwnerId().equals(id))) {
@@ -339,7 +351,6 @@ public class DataProviderCSV implements IDataProvider{
     }
 
 
-    @Override
     public Pet getPet(Pet pet) throws Exception {
         String path = PET_CSV;
         Class cl = Pet.class;

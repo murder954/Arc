@@ -22,8 +22,8 @@ public class Treatment extends Service {
 
     }
 
-    public Treatment(double cost, String id, Date date, String nameOfService, int treatmentTime, String drugName, String diseaseName, double priceForPack, int piecesInPack, int intensityPerDay) {
-        super(cost, id, date, nameOfService);
+    public Treatment(double cost, Date date, String nameOfService, int treatmentTime, String drugName, String diseaseName, double priceForPack, int piecesInPack, int intensityPerDay) {
+        super(cost, date, nameOfService);
         this.treatmentTime = treatmentTime;
         this.drugName = drugName;
         this.diseaseName = diseaseName;

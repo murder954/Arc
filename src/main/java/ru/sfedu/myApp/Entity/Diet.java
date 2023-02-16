@@ -15,8 +15,8 @@ public class Diet extends Service {
 
     }
 
-    public Diet(double cost, String id, Date date, String nameOfService, String feedType, double priceForPack, double weightOfPack) {
-        super(cost, id, date, nameOfService);
+    public Diet(double cost, Date date, String nameOfService, String feedType, double priceForPack, double weightOfPack) {
+        super(cost, date, nameOfService);
         this.feedType = feedType;
         this.priceForPack = priceForPack;
         this.weightOfPack = weightOfPack;

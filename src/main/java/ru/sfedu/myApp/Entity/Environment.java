@@ -18,8 +18,8 @@ public class Environment extends Service {
 
     }
 
-    public Environment(double cost, String id, Date date, String nameOfService, boolean insideHouse, String environmentFeatures, String addition, double price) {
-        super(cost, id, date, nameOfService);
+    public Environment(double cost, Date date, String nameOfService, boolean insideHouse, String environmentFeatures, String addition, double price) {
+        super(cost, date, nameOfService);
         this.insideHouse = insideHouse;
         this.environmentFeatures = environmentFeatures;
         this.addition = addition;

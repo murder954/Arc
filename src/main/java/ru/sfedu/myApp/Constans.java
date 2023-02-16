@@ -47,7 +47,12 @@ public class Constans {
     public static final String DISEASE_DB = "DISEASE_DB";
     public static final String ENVVAR_DB = "ENVVAR_DB";
 
-    public static final String DATE_FORMAT = "DATE_FORMAT";
+    public static final String HISTORY_DB = "HISTORY_DB";
+
+
+    public static final String MONGO_DB_NAME = "MONGO_DB_NAME";
+    public static final String MONGO_COLLECTION = "MONGO_COLLECTION";
+    public static final String MONGO_PATH = "MONGO_PATH";
 
     public static final String TREATMENT = "TREATMENT";
     public static final String ENVIRONMENT = "ENVIRONMENT";

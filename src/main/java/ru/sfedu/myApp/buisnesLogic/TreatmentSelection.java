@@ -23,7 +23,7 @@ public class TreatmentSelection {
     DataProviderXML data = new DataProviderXML();
 
     //SimpleDateFormat formatForDateNow = new SimpleDateFormat(DATE_FORMAT);
-    public TreatmentSelection() {
+    public TreatmentSelection() throws IOException {
 
     }
 
@@ -68,7 +68,7 @@ public class TreatmentSelection {
     }
 
     public void createRecipe(Treatment obj, double packs) throws IOException {
-        log.info("To treat %s, you must buy %s packs of %s. And you should give to your pet %s tablets per day for %s days. It will be cost %s", obj.getDiseaseName(), packs, obj.getDrugName(), obj.getIntesityPerDay(), obj.getTreatmentTime(), obj.getCost());
+        log.info("To treat " + obj.getDiseaseName() + ", you must buy " + packs + " packs of " + obj.getDrugName() + ". And you should give to your pet " + obj.getIntesityPerDay() + " tablets per day for " + obj.getTreatmentTime() + " days. It will be cost " + obj.getCost());
     }
 
     public void calculatingExpenses(Pet pet) throws Exception {
@@ -126,9 +126,9 @@ public class TreatmentSelection {
         return total;
     }
 
-    public void selectionFeed(Pet pet) throws Exception {
+    public void selectionFeed(Pet pet, boolean flag, int pieces) throws Exception {
         List<Feed> list = data.getAllRecords(config.getConfigurationEntry(FEED_XML));
-        log.info("Your previously expenses for feed: " + expensesFood(pet.getId()));
+        //log.info("Your previously expenses for feed: " + expensesFood(pet.getId()));
         Feed obj = new Feed();
         for (Feed feed : list) {
             if (feed.getForPetType().equals(pet.getType())) {
@@ -137,20 +137,31 @@ public class TreatmentSelection {
         }
         if(obj.getId() == null)
             throw new Exception("No feed for your pet");
+        log.info("Selection result... Feed name: " + obj.getFeedName() +", feed id: "+ obj.getId() + ", pack weight: " + obj.getWeightOfPack() + ", variant price:" + obj.getPriceForPack());
         Diet diet = new Diet();
         diet.setId(createId());
         diet.setDate(new Date());
-        diet.setCost(obj.getPriceForPack());
         diet.setNameOfService(config.getConfigurationEntry(DIET));
         diet.setFeedType(pet.getFeedType());
         diet.setWeightOfPack(obj.getWeightOfPack());
         diet.setPriceForPack(obj.getPriceForPack());
+        if (flag)
+            diet.setCost(calculateFeedCost(obj, pieces));
+        else
+            diet.setCost(99.0);
         data.saveHistoryRecord(pet, diet);
     }
 
-    public void selectionEnvironmentVariant(Pet pet) throws Exception {
+    public double calculateFeedCost(Feed feed, int pieces){
+        double price = feed.getPriceForPack() * pieces;
+        double weight = feed.getWeightOfPack() * pieces;
+        log.info("Price for " + pieces + "feed packs: " + price + ". Total weight: " + weight);
+        return price;
+    }
+
+    public void selectionEnvironmentVariant(Pet pet, boolean flag) throws Exception {
         List<EnvironmentVariant> list = data.getAllRecords(config.getConfigurationEntry(ENVVAR_XML));
-        log.info("Your previously expenses for environment: " + expensesEnvironment(pet.getId()));
+        //log.info("Your previously expenses for environment: " + expensesEnvironment(pet.getId()));
         EnvironmentVariant obj = new EnvironmentVariant();
         for (EnvironmentVariant var : list) {
             if (var.getForPetType().equals(pet.getType())) {
@@ -159,15 +170,24 @@ public class TreatmentSelection {
         }
         if(obj.getId() == null)
             throw new Exception("No environment for your pet");
+        log.info("Selection result... Environment variant name: " + obj.getHouseName() +", variant id: "+ obj.getId() + ", variant addition: " + obj.getAddition() + ", variant features: " + obj.getEnvironmentFeatures() + ", variant price:" + obj.getPrice());
         Environment env = new Environment();
         env.setId(createId());
         env.setDate(new Date());
-        env.setCost(obj.getPrice());
         env.setAddition(obj.getAddition());
         env.setEnvironmentFeatures(obj.getEnvironmentFeatures());
         env.setInsideHouse(obj.getInsideHouseUsing());
         env.setPrice(obj.getPrice());
         env.setNameOfService(config.getConfigurationEntry(ENVIRONMENT));
+        if (flag)
+            env.setCost(calculateEnvironmentCost(obj));
+        else
+            env.setCost(99.00);
         data.saveHistoryRecord(pet, env);
+    }
+
+    public double calculateEnvironmentCost(EnvironmentVariant obj){
+        log.info("Environment variant with name %s will be cost: %s. Addition");
+        return obj.getPrice();
     }
 }

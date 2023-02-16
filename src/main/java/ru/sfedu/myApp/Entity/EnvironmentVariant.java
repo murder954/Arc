@@ -7,6 +7,7 @@ import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.util.Date;
+import java.util.UUID;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -39,6 +40,7 @@ public class EnvironmentVariant {
 
     public EnvironmentVariant(String houseName, boolean insideHouseUsing, String environmentFeatures, String addition, double price, String forPetType) {
         this.houseName = houseName;
+        this.id = UUID.randomUUID().toString();
         this.insideHouseUsing = insideHouseUsing;
         this.environmentFeatures = environmentFeatures;
         this.addition = addition;

@@ -6,6 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Objects;
+import java.util.UUID;
 
 
 @XmlRootElement
@@ -48,6 +49,7 @@ public class Pet {
 
     public Pet(String name, String gender, double weight, String feedType, String type, int age, String nameOfDisease) {
         this.name = name;
+        this.id = UUID.randomUUID().toString();
         this.gender = gender;
         this.weight = weight;
         this.feedType = feedType;

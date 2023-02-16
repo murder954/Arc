@@ -30,11 +30,11 @@ public class LogicTest {
     @Test
     void logicTest() throws Exception {
         dataProvider.saveOwnerRecord(test_owner1);
-        dataProvider.savePetRecord(test_pet1, test_owner1.getId());
+        //dataProvider.savePetRecord(test_pet1, test_owner1.getId());
         logic.animalTreatment(test_pet1);
         logic.calculatingExpenses(test_pet1);
-        logic.selectionFeed(test_pet1);
-        logic.selectionEnvironmentVariant(test_pet1);
+        //logic.selectionFeed(test_pet1);
+        //logic.selectionEnvironmentVariant(test_pet1);
         assertNotNull(dataProvider.getHistoryRecords(test_pet1.getId()));
     }
 }

@@ -6,6 +6,8 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+import java.util.UUID;
+
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Disease {
@@ -28,6 +30,8 @@ public class Disease {
 
     public Disease(String nameOfDisease, int treatmentTime, String forTreatment) {
         this.nameOfDisease = nameOfDisease;
+        this.id = UUID.randomUUID().toString();
+        this.id = String.valueOf(UUID.randomUUID());
         this.treatmentTime = treatmentTime;
         this.forTreatment = forTreatment;
     }

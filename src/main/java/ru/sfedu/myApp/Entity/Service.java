@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Date;
+import java.util.UUID;
 
 public class Service {
 
@@ -22,9 +23,10 @@ public class Service {
 
     }
 
-    public Service(double cost, String id, Date date, String nameOfService) {
+    public Service(double cost, Date date, String nameOfService) {
         this.cost = cost;
-        this.id = id;
+        this.id = String.valueOf(UUID.randomUUID());
+        //this.id = id;
         this.date = date;
         this.nameOfService = nameOfService;
         log.info("Service with name: " + nameOfService + " has been created");

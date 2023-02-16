@@ -6,6 +6,8 @@ import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+import java.util.UUID;
+
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Drug {
@@ -31,6 +33,7 @@ public class Drug {
 
     public Drug(String drugName, double priceForPack, int piecesInPack, int intensityPerDay) {
         this.drugName = drugName;
+        this.id = String.valueOf(UUID.randomUUID());
         this.priceForPack = priceForPack;
         this.piecesInPack = piecesInPack;
         this.intensityPerDay = intensityPerDay;

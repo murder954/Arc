@@ -3,6 +3,7 @@ package ru.sfedu.myApp.Entity;
 import com.opencsv.bean.CsvBindByPosition;
 import jakarta.xml.bind.annotation.*;
 import java.util.Objects;
+import java.util.UUID;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
@@ -33,6 +34,7 @@ public class Owner {
     }
 
     public Owner(String ownerName, String phoneNumber, String email, long bankAccount) {
+        this.id = UUID.randomUUID().toString();
         this.ownerName = ownerName;
         this.phoneNumber = phoneNumber;
         this.email = email;
@@ -44,7 +46,7 @@ public class Owner {
     }
 
     public void setId(String id) {
-        this.id = id.toString();
+        this.id = id;
     }
 
     public String getOwnerName() {
