@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlWrapper>
+    <wrapper>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="fish">
+            <name>Goldy</name>
+            <id>e9ebb541-44ef-441a-abe3-4b2f32aa4274</id>
+            <gender>female</gender>
+            <weight>0.3</weight>
+            <feedType>corn</feedType>
+            <type>fish</type>
+            <age>1</age>
+            <disease>lepidorthosis</disease>
+            <ownerId>c9543e82-3d39-4460-9265-5074cd440d18</ownerId>
+            <waterType>fresh</waterType>
+        </list>
+    </wrapper>
+</xmlWrapper>

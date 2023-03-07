@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
 
 
 class DataProviderXMLTest {

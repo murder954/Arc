@@ -9,24 +9,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="Somewhere in class before set hibernate">
+    <list default="true" id="877f6694-5af1-44df-bd02-ef588de6a417" name="Changes" comment="Somewhere in class before set hibernate 2">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab1Logs_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab1Logs_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d64919b4-a200-48dc-a74d-d1647de55977/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d64919b4-a200-48dc-a74d-d1647de55977/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d64919b4-a200-48dc-a74d-d1647de55977/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d64919b4-a200-48dc-a74d-d1647de55977/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d64919b4-a200-48dc-a74d-d1647de55977/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Lab1Logs_jar/Lab1Logs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Lab1Logs_jar/Lab1Logs.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Constans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/ConfigUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Constans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Lab1LogsClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/lab1/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataBaseProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataBaseProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/DataProviderXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Diet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Diet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Disease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Disease.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Drug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/EnvironmentVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/EnvironmentVariant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Treatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Diet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Diet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Disease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Disease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Drug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Drug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/EnvironmentVariant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/EnvironmentVariant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Expencces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Expencces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/HistoryContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/HistoryContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/Treatment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Entity/XmlWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/Model/XmlWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/IDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/IDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/buisnesLogic/TreatmentSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/buisnesLogic/TreatmentSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/LoggingBeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/LoggingBeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/buisnesLogic/TreatmentSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/sfedu/myApp/buisnesLogic/BusinessLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Bird.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Bird.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Cat.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Cat.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Disease.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Disease.csv" afterDir="false" />
@@ -36,8 +57,23 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Feed.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Feed.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Owner.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Owner.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSVFiles/Pet.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSVFiles/Pet.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyAPP.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyAPP.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Env.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Env2.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Cat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Cat.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Disease.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Disease.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Drug.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Drug.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/EnvVar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/EnvVar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Fish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Fish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Owner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Owner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/XMLFiles/Pet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/XMLFiles/Pet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/Lab1LogsClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/lab1/PlanetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataBaseProviderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataBaseProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderCSVTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderCSVTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderXMLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/DataProviderXMLTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/LoggingBeansTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/LoggingBeansTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/LogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/sfedu/myApp/LogicTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +86,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -124,7 +160,7 @@
       <recent name="ru.sfedu.myApp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DataProviderCSVTest">
+  <component name="RunManager" selected="JUnit.DataBaseProviderTest">
     <configuration name="DataBaseProviderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
@@ -140,7 +176,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataBaseProviderTest.deleteOnePetRecordPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DataBaseProviderTest.savePetNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1Logs" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +186,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.sfedu.myApp" />
       <option name="MAIN_CLASS_NAME" value="ru.sfedu.myApp.DataBaseProviderTest" />
-      <option name="METHOD_NAME" value="deleteOnePetRecordPositive" />
+      <option name="METHOD_NAME" value="savePetNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DataBaseProviderTest" />
+        <item itemvalue="JUnit.DataBaseProviderTest.savePetNegative" />
         <item itemvalue="JUnit.DataProviderCSVTest" />
         <item itemvalue="JUnit.DataProviderXMLTest" />
-        <item itemvalue="JUnit.DataBaseProviderTest" />
         <item itemvalue="JUnit.LoggingBeansTest" />
-        <item itemvalue="JUnit.DataBaseProviderTest.deleteOnePetRecordPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +329,17 @@
       <workItem from="1675686360068" duration="7582000" />
       <workItem from="1675928420200" duration="963000" />
       <workItem from="1676370297854" duration="6479000" />
-      <workItem from="1676524948122" duration="405000" />
+      <workItem from="1676524948122" duration="2278000" />
+      <workItem from="1677329528026" duration="13126000" />
+      <workItem from="1677579772264" duration="5232000" />
+      <workItem from="1677667391359" duration="5410000" />
+      <workItem from="1677860101689" duration="436000" />
+      <workItem from="1677850453376" duration="9623000" />
+      <workItem from="1677936843788" duration="6878000" />
+      <workItem from="1678007951406" duration="15713000" />
+      <workItem from="1678104029869" duration="21816000" />
+      <workItem from="1678179023548" duration="7379000" />
+      <workItem from="1678207840257" duration="15413000" />
     </task>
     <task id="LOCAL-00001" summary="Create pet and extended entities">
       <created>1670921330775</created>
@@ -358,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676525395513</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Somewhere in class before set hibernate 2">
+      <created>1676525424931</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676525424931</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +440,7 @@
     <MESSAGE value="Create test for Data provider Xml" />
     <MESSAGE value="Send course work to B.B." />
     <MESSAGE value="Somewhere in class before set hibernate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Somewhere in class before set hibernate" />
+    <MESSAGE value="Somewhere in class before set hibernate 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Somewhere in class before set hibernate 2" />
   </component>
 </project>

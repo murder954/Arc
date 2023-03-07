@@ -2,10 +2,11 @@ package ru.sfedu.myApp;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
+
 import java.sql.*;
-import java.sql.Date;
 import java.util.*;
+import java.util.Date;
 
 import static ru.sfedu.myApp.Constans.*;
 
@@ -42,6 +43,28 @@ public class DataBaseProvider implements IDataProvider {
     }
 
     @Override
+    public <T> List<T> forGetAll(String str) throws Exception {
+        List list = new ArrayList<>();
+        switch (str){
+            case "drug":
+                list = getAllDrugs();
+                break;
+            case "disease":
+                list = getAllDiseases();
+                break;
+            case "envvar":
+                list = getAllEnvironmentVariants();
+                break;
+            case "feed":
+                list = getAllFeeds();
+                break;
+        }
+        if (list.isEmpty())
+            throw new Exception("No records");
+        return list;
+    }
+
+    @Override
     public void savePetRecord(Pet object, String ownerId) throws Exception {
         object.setOwnerId(ownerId);
         String sql = "INSERT INTO " + config.getConfigurationEntry(LINKTABLE_DB) + " (ownerId, petId, PetType) VALUES(?,?,?)";
@@ -54,7 +77,7 @@ public class DataBaseProvider implements IDataProvider {
                 throw new Exception();
             }
         } catch (Exception e) {
-            throw new Exception("Error at saving data in Link Table");
+            throw new Exception("Pet with this id has been saved previously");
         }
         switch (object.getType()) {
             case "cat":
@@ -198,21 +221,24 @@ public class DataBaseProvider implements IDataProvider {
 
     @Override
     public void saveHistoryRecord(Pet pet, Service serv) throws Exception {
-        String sql = "INSERT INTO " + config.getConfigurationEntry(HISTORY_DB) + " (petName, petid, ownerId, serviceName, price, date) VALUES(?,?,?,?,?,?)";
+        String sql = "INSERT INTO " + config.getConfigurationEntry(HISTORY_DB) + " (petName, petid, ownerId, serviceName, price, date, servId) VALUES(?,?,?,?,?,?,?)";
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, pet.getName());
             statement.setString(2, pet.getId());
             statement.setString(3, pet.getOwnerId());
             statement.setString(4, serv.getNameOfService());
             statement.setDouble(5, serv.getCost());
-            statement.setDate(6, (Date) serv.getDate());
+            Long longForSqlDate =serv.getDate().getTime();
+            statement.setDate(6,  new java.sql.Date(longForSqlDate));
+            statement.setString(7, serv.getId());
             log.info("save history record");
             if (statement.executeUpdate() == 0) {
                 log.error("record save error");
                 throw new Exception();
             }
         } catch (Exception e) {
-            throw new Exception("record with this id has been saved previously");
+            log.info(e.getMessage());
+            //throw new Exception("record with this id has been saved previously");
         }
     }
 
@@ -644,13 +670,15 @@ public class DataBaseProvider implements IDataProvider {
                 history.setOwnerId(rs.getString("ownerId"));
                 history.setServiceName(rs.getString("serviceName"));
                 history.setPrice(rs.getDouble("price"));
-                history.setDate(rs.getDate("date"));
+                Date date = new Date(rs.getDate("date").getTime());
+                history.setDate(date);
+                history.setServId(rs.getString("servId"));
                 list.add(history);
             }
         }
         if (list.isEmpty()) {
             log.error("Not found history records with id=" + id);
-            throw new Exception("there is no records with this id");
+            throw new Exception("No history records for this pet");
         }
         return list;
     }
@@ -730,6 +758,7 @@ public class DataBaseProvider implements IDataProvider {
                 variant.setInsideHouseUsing(rs.getBoolean("insideHouseUsing"));
                 variant.setEnvironmentFeatures(rs.getString("environmentFeatures"));
                 variant.setPrice(rs.getDouble("price"));
+                variant.setForPetType(rs.getString("forPetType"));
             }
         }
         if (variant.getId() == null) {
@@ -738,6 +767,7 @@ public class DataBaseProvider implements IDataProvider {
         }
         return variant;
     }
+
     public List<Disease> getAllDiseases() throws Exception{
         String selectSQL = "Select * FROM " + config.getConfigurationEntry(DISEASE_DB);
         Disease dis = new Disease();
@@ -777,6 +807,52 @@ public class DataBaseProvider implements IDataProvider {
         if (list.isEmpty()) {
             log.error("No drugs");
             throw new Exception("No drugs at all");
+        }
+        return list;
+    }
+
+    public List<Feed> getAllFeeds() throws Exception{
+        String selectSQL = "Select * FROM " + config.getConfigurationEntry(FEED_DB);
+        Feed fd = new Feed();
+        List<Feed> list = new ArrayList<>();
+        try (Statement statement = connection.createStatement()){
+            ResultSet rs = statement.executeQuery(selectSQL);
+            if(rs.next()){
+                fd.setFeedName(rs.getString("feedName"));
+                fd.setId(rs.getString("id"));
+                fd.setForPetType(rs.getString("forPetType"));
+                fd.setPriceForPack(rs.getDouble("priceForPack"));
+                fd.setWeightOfPack(rs.getDouble("weightOfPack"));
+                list.add(fd);
+            }
+        }
+        if (list.isEmpty()){
+            log.info("No feed.");
+            throw new Exception(("No feed at all"));
+        }
+        return list;
+    }
+
+    public List<EnvironmentVariant> getAllEnvironmentVariants() throws Exception {
+        String selectSQL = "Select * FROM " + config.getConfigurationEntry(ENVVAR_DB);
+        EnvironmentVariant var = new EnvironmentVariant();
+        List<EnvironmentVariant> list = new ArrayList<>();
+        try (Statement statement = connection.createStatement()) {
+            ResultSet rs = statement.executeQuery(selectSQL);
+            if (rs.next()) {
+                var.setHouseName(rs.getString("houseName"));
+                var.setId(rs.getString("id"));
+                var.setAddition(rs.getString("addition"));
+                var.setInsideHouseUsing(rs.getBoolean("insideHouseUsing"));
+                var.setEnvironmentFeatures(rs.getString("environmentFeatures"));
+                var.setPrice(rs.getDouble("price"));
+                var.setForPetType(rs.getString("forPetType"));
+                list.add(var);
+            }
+        }
+        if (list.isEmpty()) {
+            log.info("No environment variants");
+            throw new Exception("No variants at all");
         }
         return list;
     }

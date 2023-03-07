@@ -5,7 +5,7 @@ import com.opencsv.exceptions.CsvDataTypeMismatchException;
 import com.opencsv.exceptions.CsvRequiredFieldEmptyException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
 
 import java.io.FileOutputStream;
 import java.io.FileReader;
@@ -30,7 +30,7 @@ public class DataProviderCSV implements IDataProvider{
     private String[] fishHeader = {"name", "id", "gender", "weight", "feetType", "type", "age", "nameOfDisease", "ownerId","waterType"};
     private String[] petHeader = {"name", "id", "gender", "weight", "feetType", "type", "age", "nameOfDisease", "ownerId"};
 
-    private String[] historyHeader = {"petName", "petId", "ownerId", "serviceName", "priceForService", "date"};
+    private String[] historyHeader = {"petName", "petId", "ownerId", "serviceName", "servId","priceForService", "date"};
 
     private String[] feedHeader = {"name", "id", "price", "weight", "forPet"};
     private String[] drugHeader = {"name", "id", "price", "pieces", "intensity"};
@@ -59,6 +59,33 @@ public class DataProviderCSV implements IDataProvider{
         return new ArrayList<>();
     }
 
+    @Override
+    public <T> List<T> forGetAll(String str) throws Exception {
+        List list = new ArrayList<>();
+        switch (str){
+            case "drug":
+                list = getAllRecords(drugHeader, Drug.class, config.getConfigurationEntry(DRUG_CSV));
+                break;
+            case "disease":
+                list = getAllRecords(diseaseHeader, Disease.class, config.getConfigurationEntry(DISEASE_CSV));
+                break;
+            case "envvar":
+                list = getAllRecords(envVarHeader, EnvironmentVariant.class, config.getConfigurationEntry(ENVVAR_CSV));
+                break;
+            case "feed":
+                list = getAllRecords(feedHeader, Feed.class, config.getConfigurationEntry(FEED_CSV));
+                break;
+//            case "pet":
+//                getAllRecords(catHeader, Cat.class, config.getConfigurationEntry(CAT_CSV));
+//                getAllRecords(dogHeader, Dog.class, config.getConfigurationEntry(DOG_CSV));
+//                getAllRecords(fishHeader, Fish.class, config.getConfigurationEntry(FISH_CSV));
+//                getAllRecords(birdHeader, Bird.class, config.getConfigurationEntry(BIRD_CSV));
+//                break;
+        }
+        if (list.isEmpty())
+            throw new Exception("No records");
+        return list;
+    }
 
     public <T> void initRecord(List list, String[] headers, Class<T> tClass, String path) throws IOException, CsvRequiredFieldEmptyException, CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, CsvDataTypeMismatchException {
         log.info("update info");
@@ -146,6 +173,7 @@ public class DataProviderCSV implements IDataProvider{
             historyObj.setPetName(pet.getName());
             historyObj.setOwnerId(pet.getOwnerId());
             historyObj.setServiceName(serv.getNameOfService());
+            historyObj.setServId(serv.getId());
             historyObj.setPrice(serv.getCost());
             historyObj.setDate(serv.getDate());
             list.add(historyObj);
@@ -153,7 +181,7 @@ public class DataProviderCSV implements IDataProvider{
         }catch (Exception e){
             log.error("Data error...");
         }
-
+        logToHistory.logObjectChange(historyObj, "saveHistory", historyObj.getPetId());
     }
     @Override
     public void saveFeedRecord(Feed object) throws Exception {
@@ -416,7 +444,7 @@ public class DataProviderCSV implements IDataProvider{
     public List<History> getHistoryRecords(String id) throws Exception {
         List<History> list = getAllRecords(historyHeader, History.class, "src/main/resources/HistoryFiles/" + id + ".csv");
         if(list.isEmpty()){
-            throw new Exception("File is empty");
+            throw new Exception("No history records for this pet");
         }
         return list;
     }

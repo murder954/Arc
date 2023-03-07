@@ -1,9 +1,9 @@
 package ru.sfedu.myApp;
 
 import org.junit.jupiter.api.Test;
-import ru.sfedu.myApp.Entity.Cat;
-import ru.sfedu.myApp.Entity.Feed;
-import ru.sfedu.myApp.Entity.Owner;
+import ru.sfedu.myApp.Model.Cat;
+import ru.sfedu.myApp.Model.Feed;
+import ru.sfedu.myApp.Model.Owner;
 
 class LoggingBeansTest {
 

@@ -6,7 +6,7 @@ import jakarta.xml.bind.Unmarshaller;
 import jakarta.xml.bind.annotation.XmlTransient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
 
 import java.io.*;
 import java.util.*;
@@ -40,9 +40,37 @@ public class DataProviderXML implements IDataProvider {
             log.debug("records initialization:" + wrap.getList());
             return new ArrayList<T>(wrap.getList());
         } catch (Exception e) {
-            log.info("SimpleTest " + e.getMessage());
+            log.debug("SimpleTest " + e.getMessage());
         }
         return new ArrayList<>();
+    }
+
+    @Override
+    public <T> List<T> forGetAll(String str) throws Exception {
+        List list = new ArrayList<>();
+        switch (str){
+            case "drug":
+                list = getAllRecords(config.getConfigurationEntry(DRUG_XML));
+                break;
+            case "disease":
+                list = getAllRecords(config.getConfigurationEntry(DISEASE_XML));
+                break;
+            case "envvar":
+                list = getAllRecords(config.getConfigurationEntry(ENVVAR_XML));
+                break;
+            case "feed":
+                list = getAllRecords(config.getConfigurationEntry(FEED_XML));
+                break;
+//            case "pet":
+//                getAllRecords(config.getConfigurationEntry(CAT_XML));
+//                getAllRecords(config.getConfigurationEntry(DOG_XML));
+//                getAllRecords(config.getConfigurationEntry(FISH_XML));
+//                getAllRecords(config.getConfigurationEntry(BIRD_XML));
+//                break;
+        }
+        if (list.isEmpty())
+            throw new Exception("No records");
+        return list;
     }
 
     public void initRecord(List list, String path) {
@@ -122,6 +150,7 @@ public class DataProviderXML implements IDataProvider {
             historyObj.setPetName(pet.getName());
             historyObj.setOwnerId(pet.getOwnerId());
             historyObj.setServiceName(serv.getNameOfService());
+            historyObj.setServId(serv.getId());
             historyObj.setPrice(serv.getCost());
             historyObj.setDate(serv.getDate());
             list.add(historyObj);
@@ -129,6 +158,7 @@ public class DataProviderXML implements IDataProvider {
         }catch (Exception e){
             log.error("Data error...");
         }
+        logToHistory.logObjectChange(historyObj, "saveHistory", historyObj.getPetId());
     }
 
     @Override
@@ -409,7 +439,7 @@ public class DataProviderXML implements IDataProvider {
     public List<History> getHistoryRecords(String id) throws Exception {
         List<History> list = getAllRecords("src/main/resources/HistoryFiles/" + id + ".xml");
         if(list.isEmpty()){
-            throw new Exception("File is empty");
+            throw new Exception("No history records for this pet");
         }
         return list;
     }

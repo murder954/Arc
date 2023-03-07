@@ -2,7 +2,7 @@ package ru.sfedu.myApp;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,9 +11,9 @@ class DataProviderCSVTest {
 
     static Cat test_pet1 = new Cat("Vasiliy", "male", 3.4, "potato", "cat", 1, "stomach_ache", false, false);
     static Cat test_pet2 = new Cat("Vasilisa", "female", 6.07, "premium_feed_with_meat", "cat", 3, "ill", true, true);
-    static Dog test_pet3 = new Dog("Muhtar", "male", 21.07, "feed_with_meat_taste", "dog", 1, "break paw", true);
+    static Dog test_pet3 = new Dog("Muhtar", "male", 21.07, "feed_with_meat_taste", "dog", 1, "break_paw", true);
     static Fish test_pet4 = new Fish("Goldy", "female", 0.3, "bread", "fish", 2, "lepidorthosis", "fresh_water");
-    static Bird test_pet5 = new Bird("Teo", "male", 0.7, "worms", "bird", 1, "brake wing", false);
+    static Bird test_pet5 = new Bird("Teo", "male", 0.7, "worms", "bird", 1, "brake_wing", false);
     static Dog test_pet6 = new Dog("Biba", "female", 33.1, "Meal", "dog", 6, "ill", false);
     static Fish test_pet7 = new Fish("Nemo", "male", 0.8, "worms", "fish", 2, "lepidorthosis", "sea");
 

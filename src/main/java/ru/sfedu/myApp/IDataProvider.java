@@ -1,12 +1,15 @@
 package ru.sfedu.myApp;
 
-import ru.sfedu.myApp.Entity.*;
+import ru.sfedu.myApp.Model.*;
 
 import java.util.List;
 
 public interface IDataProvider {
 
     String createId();
+
+
+    <T> List<T> forGetAll(String str) throws Exception;
 
     void savePetRecord(Pet object, String ownerId) throws Exception;
 
@@ -41,10 +44,6 @@ public interface IDataProvider {
     void deleteDiseaseRecord(String id) throws Exception;
 
     void deleteEnvironmentVariantRecord(String id) throws Exception;
-
-    //Pet findForGetPetRecordByOwnerId(String id) throws Exception;
-
-    //Pet getPet(Pet pet) throws Exception;
 
     Owner getOwnerRecordByID(String id) throws Exception;
 

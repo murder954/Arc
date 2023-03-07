@@ -1,0 +1,469 @@
+2023-03-06 16:13:01,052 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:13:01,129 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Disease@4201a617]
+2023-03-06 16:13:01,138 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Drug@1556f2dd]
+2023-03-06 16:13:01,146 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Cat@85d62e53]
+2023-03-06 16:13:01,146 DEBUG r.s.m.DataProviderXML [main] get record with id 9113dd88-7505-4a5d-a5e6-4c3af563b3da
+2023-03-06 16:13:01,154 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Cat@85d62e53]
+2023-03-06 16:13:01,159 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:13:01,168 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.History@76b0ae1b, ru.sfedu.myApp.Model.History@130a0f66]
+2023-03-06 16:18:51,241 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:18:51,316 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Disease@4201a617]
+2023-03-06 16:18:51,325 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Drug@1556f2dd]
+2023-03-06 16:18:51,333 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Cat@85d62e53]
+2023-03-06 16:18:51,333 DEBUG r.s.m.DataProviderXML [main] get record with id 9113dd88-7505-4a5d-a5e6-4c3af563b3da
+2023-03-06 16:18:51,339 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.Cat@85d62e53]
+2023-03-06 16:18:51,345 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:18:51,354 DEBUG r.s.m.DataProviderXML [main] records initialization:[ru.sfedu.myApp.Model.History@76b0ae1b, ru.sfedu.myApp.Model.History@130a0f66, ru.sfedu.myApp.Model.History@4c432866]
+2023-03-06 16:21:39,791 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:21:39,891 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:25:00,107 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:25:00,216 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:25:00,227 INFO r.s.m.DataProviderXML [main] SimpleTest null
+2023-03-06 16:26:02,785 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:26:02,889 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:26:02,899 INFO r.s.m.DataProviderXML [main] SimpleTest null
+2023-03-06 16:26:02,910 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 16:33:27,455 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:33:27,571 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:33:27,582 ERROR r.s.m.DataProviderXML [main] SimpleTest null
+2023-03-06 16:33:27,593 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 16:35:44,570 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:35:44,682 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:35:44,693 INFO r.s.m.DataProviderXML [main] SimpleTest null
+2023-03-06 16:37:14,074 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:37:14,175 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:44:56,792 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:44:56,899 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:45:18,988 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:45:19,110 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:45:19,130 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 16:48:52,291 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:48:52,390 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:48:52,446 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 16:53:19,317 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:53:19,428 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 16:53:19,519 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 16:55:08,697 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:55:08,758 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 16:57:16,406 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:57:16,488 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 16:57:16,501 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 16:58:58,762 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:58:58,821 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 16:59:35,564 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 16:59:35,621 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 17:00:19,334 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:00:19,393 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 17:03:10,386 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:03:10,476 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 17:03:10,590 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 17:25:07,538 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:25:07,628 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 17:25:07,629 INFO r.s.m.DataProviderCSV [main] file is empty
+2023-03-06 17:25:07,629 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 17:25:07,676 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 17:26:34,798 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:26:34,911 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 17:26:34,965 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 17:35:37,523 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:35:37,632 INFO r.s.m.b.BusinessLogic [main] Medical expenses for pet: 295.34
+2023-03-06 17:35:37,642 INFO r.s.m.b.BusinessLogic [main] No food expenses for this pet
+2023-03-06 17:35:37,643 INFO r.s.m.b.BusinessLogic [main] Food expenses for pet: 0.0
+2023-03-06 17:35:37,650 INFO r.s.m.b.BusinessLogic [main] No environment expenses for this pet
+2023-03-06 17:35:37,651 INFO r.s.m.b.BusinessLogic [main] Environment expenses for pet: 0.0
+2023-03-06 17:35:37,651 INFO r.s.m.b.BusinessLogic [main] Total cost of services for pet: 295.34
+2023-03-06 17:37:36,089 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 17:37:36,179 INFO r.s.m.b.BusinessLogic [main] Medical expenses for pet: 295.34
+2023-03-06 17:37:36,185 INFO r.s.m.b.BusinessLogic [main] Food expenses for pet: 0.0
+2023-03-06 17:37:36,189 INFO r.s.m.b.BusinessLogic [main] Environment expenses for pet: 0.0
+2023-03-06 17:37:36,190 INFO r.s.m.b.BusinessLogic [main] Total cost of services for pet: 295.34
+2023-03-06 17:52:23,197 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:36:41,856 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:36:41,967 INFO r.s.m.b.BusinessLogic [main] Selection result... Feed name: wiskas, feed id: e98fcaff-6700-4cb3-bc72-7817a0a6de4f, pack weight: 100.0, variant price:145.2
+2023-03-06 19:36:41,970 INFO r.s.m.b.BusinessLogic [main] Price for 2feed packs: 290.4. Total weight: 200.0
+2023-03-06 19:37:57,703 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:37:57,790 INFO r.s.m.b.BusinessLogic [main] Selection result... Feed name: premium_feed_with_meat, feed id: c38edf65-2eeb-47c3-86b5-f472b133e267, pack weight: 500.0, variant price:546.34
+2023-03-06 19:37:57,797 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 19:40:39,539 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:40:39,633 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: 7d7e7935-42fc-4e6c-8672-8ca1127f5686, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 19:40:39,634 INFO r.s.m.b.BusinessLogic [main] Environment variant with name %s will be cost: %s. Addition
+2023-03-06 19:43:29,920 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:43:30,015 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: 7d7e7935-42fc-4e6c-8672-8ca1127f5686, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 19:43:30,015 INFO r.s.m.b.BusinessLogic [main] Environment variant with name %s will be cost: %s. Addition
+2023-03-06 19:43:56,520 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:43:56,613 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: 7d7e7935-42fc-4e6c-8672-8ca1127f5686, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 19:43:56,615 INFO r.s.m.b.BusinessLogic [main] Environment variant with name couch will be cost: 999.99. Addition: pillow
+2023-03-06 19:45:05,668 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:45:05,765 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: 4fd32927-e285-4c21-8a3e-e418202f5517, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 19:45:05,775 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-06 19:49:15,466 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:49:15,651 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:49:15,657 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 19:51:58,325 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:51:58,515 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:51:58,521 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 19:53:59,154 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:53:59,338 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:56:47,853 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:56:48,070 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:56:48,249 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-06 19:57:21,001 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:57:21,219 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:57:21,225 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 19:57:39,295 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:57:39,482 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:57:39,488 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 19:58:00,926 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:58:01,115 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:58:01,121 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 19:58:53,962 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 19:58:54,175 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 19:58:54,187 ERROR r.s.m.DataBaseProvider [main] Not found history records with id=bfa84bc4-0185-401a-a491-c92f78b79174
+2023-03-06 20:00:04,556 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:00:04,768 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:00:04,792 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:03:53,214 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:03:53,399 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:03:53,422 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:06:21,492 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:06:21,681 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:06:21,699 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:06:38,983 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:06:39,189 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:06:39,209 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:06:39,212 INFO r.s.m.DataBaseProvider [main] class java.util.Date cannot be cast to class java.sql.Date (java.util.Date is in module java.base of loader 'bootstrap'; java.sql.Date is in module java.sql of loader 'platform')
+2023-03-06 20:06:39,213 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 20:33:46,504 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:33:46,688 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:33:46,705 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:33:46,708 INFO r.s.m.DataBaseProvider [main] class java.util.Date cannot be cast to class java.sql.Date (java.util.Date is in module java.base of loader 'bootstrap'; java.sql.Date is in module java.sql of loader 'platform')
+2023-03-06 20:33:46,709 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 20:37:38,572 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:37:38,764 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:37:38,783 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-06 20:37:38,787 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-06 20:37:38,919 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-06 20:39:57,937 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:39:58,144 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:39:58,150 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-06 20:41:06,471 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:41:06,659 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:41:06,680 INFO r.s.m.b.BusinessLogic [main] Selection result... Feed name: wiskas, feed id: b809574c-08ce-498f-8a6b-fa3ff95a820c, pack weight: 100.0, variant price:145.2
+2023-03-06 20:41:06,683 INFO r.s.m.b.BusinessLogic [main] Price for 2feed packs: 290.4. Total weight: 200.0
+2023-03-06 20:41:06,688 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-06 20:41:06,699 INFO r.s.m.DataBaseProvider [main] Duplicate entry 'bfa84bc4-0185-401a-a491-c92f78b79174' for key 'stories.PRIMARY'
+2023-03-06 20:41:52,724 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:41:52,921 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:41:52,938 INFO r.s.m.b.BusinessLogic [main] Selection result... Feed name: wiskas, feed id: b809574c-08ce-498f-8a6b-fa3ff95a820c, pack weight: 100.0, variant price:145.2
+2023-03-06 20:41:52,941 INFO r.s.m.b.BusinessLogic [main] Price for 2feed packs: 290.4. Total weight: 200.0
+2023-03-06 20:41:52,945 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-06 20:43:14,961 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:46:26,986 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:46:27,175 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:50:27,249 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:50:27,438 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:53:23,081 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:53:23,265 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:53:23,281 INFO r.s.m.DataBaseProvider [main] d761b647-79a9-4498-aca7-fc98195db8c5
+2023-03-06 20:56:42,143 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:56:42,332 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:56:42,348 INFO r.s.m.DataBaseProvider [main] d761b647-79a9-4498-aca7-fc98195db8c5
+2023-03-06 20:56:42,348 INFO r.s.m.b.BusinessLogic [main] d761b647-79a9-4498-aca7-fc98195db8c5
+2023-03-06 20:58:28,234 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:58:28,423 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:58:28,434 INFO r.s.m.DataBaseProvider [main] null
+2023-03-06 20:58:28,435 INFO r.s.m.b.BusinessLogic [main] d761b647-79a9-4498-aca7-fc98195db8c5
+2023-03-06 20:59:49,532 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 20:59:49,720 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 20:59:49,733 INFO r.s.m.DataBaseProvider [main] cat
+2023-03-06 20:59:49,733 INFO r.s.m.b.BusinessLogic [main] d761b647-79a9-4498-aca7-fc98195db8c5
+2023-03-06 20:59:49,737 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: d761b647-79a9-4498-aca7-fc98195db8c5, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 20:59:49,739 INFO r.s.m.b.BusinessLogic [main] Environment variant with name couch will be cost: 999.99. Addition: pillow
+2023-03-06 20:59:49,742 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-06 21:04:08,001 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-06 21:04:08,216 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-06 21:04:08,232 INFO r.s.m.b.BusinessLogic [main] Selection result... Environment variant name: couch, variant id: d761b647-79a9-4498-aca7-fc98195db8c5, variant addition: pillow, variant features: none, variant price:999.99
+2023-03-06 21:04:08,234 INFO r.s.m.b.BusinessLogic [main] Environment variant with name couch will be cost: 999.99. Addition: pillow
+2023-03-06 21:04:08,237 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-07 12:12:02,943 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:12:03,573 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 12:12:03,594 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:12:03,598 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-07 12:12:03,747 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:25:52,738 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:25:53,029 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 12:25:53,046 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:25:53,051 INFO r.s.m.DataBaseProvider [main] save history record
+2023-03-07 12:25:53,153 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:26:53,687 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:26:53,979 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:26:54,058 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:27:59,834 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:27:59,975 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:27:59,975 INFO r.s.m.DataProviderCSV [main] file is empty
+2023-03-07 12:27:59,976 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 12:28:00,027 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:31:05,952 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:31:06,047 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:31:06,047 INFO r.s.m.DataProviderCSV [main] file is empty
+2023-03-07 12:31:06,048 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 12:31:06,095 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:41:21,479 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:41:21,586 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:41:21,596 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 12:41:21,660 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 12:43:56,317 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 12:43:56,419 INFO r.s.m.b.BusinessLogic [main] To treat stomach_ache, you must buy 1.0 packs of aspirin. And you should give to your pet 1 tablets per day for 2 days. It will be cost 295.34
+2023-03-07 12:43:56,420 INFO r.s.m.DataProviderCSV [main] file is empty
+2023-03-07 12:43:56,420 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 12:43:56,479 INFO r.s.m.b.BusinessLogic [main] Service(treatment) record has been saved to history
+2023-03-07 14:26:56,452 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 14:26:56,854 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 14:26:56,860 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 22:12:01,884 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 22:16:29,898 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-07 23:34:57,443 INFO r.s.m.DataProviderXML [main] Pet has been deleted
+2023-03-07 23:34:57,972 INFO r.s.m.DataProviderXML [main] Pet has been deleted
+2023-03-07 23:34:59,122 INFO r.s.m.DataProviderXML [main] Pet has been deleted
+2023-03-07 23:34:59,251 INFO r.s.m.DataProviderXML [main] Pet has been deleted
+2023-03-07 23:34:59,253 INFO r.s.m.DataProviderXML [main] Owner has been deleted
+2023-03-07 23:34:59,344 INFO r.s.m.DataProviderXML [main] Feed has been deleted
+2023-03-07 23:37:47,325 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,403 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,425 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,444 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,492 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,509 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,528 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,533 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,554 INFO r.s.m.DataProviderCSV [main] Pet has been deleted
+2023-03-07 23:37:47,556 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,560 INFO r.s.m.DataProviderCSV [main] Pet has been deleted
+2023-03-07 23:37:47,560 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,583 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,599 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,620 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,637 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,643 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,667 INFO r.s.m.DataProviderCSV [main] Pet has been deleted
+2023-03-07 23:37:47,670 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,675 INFO r.s.m.DataProviderCSV [main] Pet has been deleted
+2023-03-07 23:37:47,675 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,680 INFO r.s.m.DataProviderCSV [main] Owner has been deleted
+2023-03-07 23:37:47,685 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,698 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,723 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,738 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,744 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,762 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,780 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,788 INFO r.s.m.DataProviderCSV [main] Feed has been deleted
+2023-03-07 23:37:47,792 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,808 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,823 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,829 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,854 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:47,865 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,082 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,089 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,123 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,180 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,454 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,466 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,483 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,497 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,501 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:37:48,527 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-07 23:43:00,114 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 23:43:00,128 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:00,260 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:00,347 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:00,568 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=2f858ef4-764e-4969-8391-fa5c88e23e2c
+2023-03-07 23:43:00,571 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sdiewirhhdshfiu
+2023-03-07 23:43:00,574 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=doojfsdofodsjq
+2023-03-07 23:43:00,577 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=qwesdvxvfwerdsfdafspd
+2023-03-07 23:43:00,580 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sfdewsvvbfds
+2023-03-07 23:43:00,582 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:00,674 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:00,890 INFO r.s.m.DataBaseProvider [main] save fish
+2023-03-07 23:43:01,283 ERROR r.s.m.DataBaseProvider [main] Not found fish with id=a50f34ed-c2ae-431c-8a2b-451d6c2f069a
+2023-03-07 23:43:01,285 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:01,340 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:43:01,342 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:02,073 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=77ec4eae-29cd-44d4-8945-b165463f018f
+2023-03-07 23:43:02,076 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=kpdsfpwe
+2023-03-07 23:43:02,077 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:04,872 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-07 23:43:07,998 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=2cc78d1c-c2a3-460b-aba4-f22ac0aaba9c
+2023-03-07 23:43:08,000 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:08,720 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=sdfsfsdferwrvc
+2023-03-07 23:43:08,722 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:08,725 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:11,008 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:43:11,683 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:11,685 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:11,858 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=doojfsdofodsjq
+2023-03-07 23:43:11,860 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:12,168 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=6207d6db-e938-4dd6-9b38-393ffdea2a84
+2023-03-07 23:43:12,170 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=sdgaerihejdjs
+2023-03-07 23:43:12,172 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:12,478 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:43:12,575 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:12,715 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:13,954 INFO r.s.m.DataBaseProvider [main] save bird
+2023-03-07 23:43:14,052 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:14,245 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=kmsdfsdfsdf
+2023-03-07 23:43:14,247 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:43:14,249 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:14,252 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:14,570 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=c6574b98-9aaa-4bfb-9212-a6ee36d4a831
+2023-03-07 23:43:14,572 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:14,667 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=kmsdfsdfsdf
+2023-03-07 23:43:14,668 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:14,951 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-07 23:43:15,127 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:15,129 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:43:15,511 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:43:15,514 INFO r.s.m.DataBaseProvider [main] connection close
+2023-03-07 23:46:16,419 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 23:46:18,385 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:46:19,571 INFO r.s.m.DataBaseProvider [main] connection close
+2023-03-07 23:53:13,040 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 23:53:13,054 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:13,361 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:13,451 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:16,643 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=c6d77f46-0bee-4de8-8f3f-ba57f686d497
+2023-03-07 23:53:16,646 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sdiewirhhdshfiu
+2023-03-07 23:53:16,648 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=doojfsdofodsjq
+2023-03-07 23:53:16,651 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=qwesdvxvfwerdsfdafspd
+2023-03-07 23:53:16,653 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sfdewsvvbfds
+2023-03-07 23:53:16,655 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:17,761 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:18,423 INFO r.s.m.DataBaseProvider [main] save fish
+2023-03-07 23:53:18,824 ERROR r.s.m.DataBaseProvider [main] Not found fish with id=7ce8b1c5-a20e-4a0a-8538-547e3de1e4e7
+2023-03-07 23:53:18,826 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:18,834 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:53:18,836 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:19,071 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=40619676-5423-42ee-ad8f-9d56663cbf9b
+2023-03-07 23:53:19,073 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=kpdsfpwe
+2023-03-07 23:53:19,075 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:19,295 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-07 23:53:21,574 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=09ec9fb3-648a-4256-94af-186e0c5fe734
+2023-03-07 23:53:21,576 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:22,365 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=sdfsfsdferwrvc
+2023-03-07 23:53:22,367 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:22,369 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:22,685 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:53:22,902 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:22,904 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:23,014 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=doojfsdofodsjq
+2023-03-07 23:53:23,015 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:23,339 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=ab1c396e-821a-4390-89a0-9580fff557e6
+2023-03-07 23:53:23,341 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=sdgaerihejdjs
+2023-03-07 23:53:23,342 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:23,718 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:53:26,674 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:29,862 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:34,164 INFO r.s.m.DataBaseProvider [main] save bird
+2023-03-07 23:53:34,474 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:34,717 INFO r.s.m.DataBaseProvider [main] Duplicate entry '8195d62a-67b4-4642-adb8-8a0a8c181809' for key 'ownersNpets.PRIMARY'
+2023-03-07 23:53:34,722 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=kmsdfsdfsdf
+2023-03-07 23:53:34,725 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:53:34,726 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:34,729 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:35,064 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=2f93c200-7063-4971-b731-bb7ee987b580
+2023-03-07 23:53:35,066 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:35,137 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=kmsdfsdfsdf
+2023-03-07 23:53:35,138 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:35,317 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-07 23:53:35,453 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:35,455 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:53:35,595 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:53:35,598 INFO r.s.m.DataBaseProvider [main] connection close
+2023-03-07 23:59:44,040 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-07 23:59:44,053 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:50,328 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:53,235 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:55,020 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=102703b1-0151-4d00-97cf-2bf256fcfdb0
+2023-03-07 23:59:55,024 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sdiewirhhdshfiu
+2023-03-07 23:59:55,028 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=doojfsdofodsjq
+2023-03-07 23:59:55,030 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=qwesdvxvfwerdsfdafspd
+2023-03-07 23:59:55,033 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=sfdewsvvbfds
+2023-03-07 23:59:55,035 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:55,500 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:55,686 INFO r.s.m.DataBaseProvider [main] save fish
+2023-03-07 23:59:55,888 ERROR r.s.m.DataBaseProvider [main] Not found fish with id=a18ad362-2612-4e4e-99c8-ab59891a16ac
+2023-03-07 23:59:55,890 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:55,897 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-07 23:59:55,899 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,105 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=4ff5edf4-0a1c-45a9-9c8b-4f18910ed1a1
+2023-03-07 23:59:56,107 ERROR r.s.m.DataBaseProvider [main] Not found drug with id=kpdsfpwe
+2023-03-07 23:59:56,109 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,329 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-07 23:59:56,521 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=1d5e336c-beee-41a2-bffd-74790aae4786
+2023-03-07 23:59:56,522 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,628 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=sdfsfsdferwrvc
+2023-03-07 23:59:56,630 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,632 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,859 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-07 23:59:56,932 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:56,934 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:57,052 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=doojfsdofodsjq
+2023-03-07 23:59:57,054 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-07 23:59:57,377 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=fb8866dd-6479-465e-8152-f84d3d770834
+2023-03-07 23:59:57,379 ERROR r.s.m.DataBaseProvider [main] Not found feed with id=sdgaerihejdjs
+2023-03-07 23:59:57,381 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:04,890 INFO r.s.m.DataBaseProvider [main] save cat
+2023-03-08 00:00:12,208 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:17,835 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:21,047 INFO r.s.m.DataBaseProvider [main] save bird
+2023-03-08 00:00:21,514 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:22,029 INFO r.s.m.DataBaseProvider [main] huy ebani Duplicate entry '0de235c0-39cd-4717-ab58-34b2af50c927' for key 'ownersNpets.PRIMARY'
+2023-03-08 00:00:22,034 ERROR r.s.m.DataBaseProvider [main] Not found owner with id=kmsdfsdfsdf
+2023-03-08 00:00:22,036 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-08 00:00:22,038 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:22,040 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:25,083 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=19cff449-126c-4e7b-8747-d02055a0b79f
+2023-03-08 00:00:25,084 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:26,436 ERROR r.s.m.DataBaseProvider [main] Not found disease with id=kmsdfsdfsdf
+2023-03-08 00:00:26,437 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:26,881 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-08 00:00:27,094 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:27,096 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:00:27,174 ERROR r.s.m.DataBaseProvider [main] Records not found
+2023-03-08 00:00:27,177 INFO r.s.m.DataBaseProvider [main] connection close
+2023-03-08 00:07:40,957 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:08:09,835 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:08:10,805 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 00:08:38,067 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:08:41,687 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-08 00:08:41,693 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 00:11:34,606 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:11:55,386 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:11:55,442 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 00:12:20,899 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 00:12:21,090 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-08 00:12:21,096 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 01:07:25,761 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:08:58,590 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:08:58,778 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-08 01:09:01,383 INFO r.s.m.DataBaseProvider [main] save dog
+2023-03-08 01:10:33,089 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:10:33,164 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 01:10:33,178 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 01:11:42,923 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:21:29,822 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:23:09,969 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:25:52,553 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:30:38,276 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:30:38,326 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 01:32:40,200 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:32:40,255 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 01:34:37,444 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:34:37,497 INFO r.s.m.DataProviderCSV [main] update info
+2023-03-08 01:36:09,760 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:36:09,948 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-08 01:36:09,954 INFO r.s.m.DataBaseProvider [main] save record
+2023-03-08 01:40:17,023 INFO r.s.m.M.Main [main] Logger configuration
+2023-03-08 01:40:17,233 INFO r.s.m.DataBaseProvider [main] connect to dataBase
+2023-03-08 01:40:17,239 INFO r.s.m.DataBaseProvider [main] save record

@@ -7,7 +7,7 @@ import com.mongodb.client.MongoDatabase;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 import org.bson.Document;
-import ru.sfedu.myApp.Entity.HistoryContent;
+import ru.sfedu.myApp.Model.HistoryContent;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
