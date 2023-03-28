@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlWrapper>
+    <wrapper>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="disease">
+            <disease>pancreatitis</disease>
+            <diseaseId>f1981e39-9dc6-4981-812d-80a2e6305748</diseaseId>
+            <treatment_time>15</treatment_time>
+            <forTreatment>smektit</forTreatment>
+        </list>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="disease">
+            <disease>lepidortosis</disease>
+            <diseaseId>5a967426-9fc9-4d53-ae62-4a67d4714dec</diseaseId>
+            <treatment_time>12</treatment_time>
+            <forTreatment>fiosept</forTreatment>
+        </list>
+    </wrapper>
+</xmlWrapper>

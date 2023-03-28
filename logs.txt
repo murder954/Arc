@@ -194,29 +194,29 @@
 10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:37 - Месяцы: {1=January, 2=February}
 10.23:16.28.48 INFO	ru.sfedu.lab1.Lab1LogsClient:18 - Планета: Venera
 11.23:06.25.55 INFO	ru.sfedu.lab1.Lab1LogsClient:20 - Pet NameJonny
-11.23:06.37.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
-11.23:06.39.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.23:06.37.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
+11.23:06.39.06 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTestUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.23:06.39.06 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.23:06.39.38 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest huiUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.23:06.39.38 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest huiUnable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.23:06.39.38 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.23:06.41.31 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.23:06.41.31 INFO	ru.sfedu.lab1.Lab1LogsClient:24 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.23:06.41.31 INFO	ru.sfedu.lab1.Lab1LogsClient:33 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.29:17.54.48 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.29:17.54.48 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.29:17.54.48 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.29:17.58.09 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.29:17.58.09 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.29:17.58.09 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.29:17.58.37 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.29:17.58.37 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.29:17.58.37 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.29:21.16.44 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.29:21.16.44 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.29:21.16.44 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:08.22.49 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Constructor not matched for class ru.sfedu.myApp.Model.Pet
+11.30:08.22.49 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Constructor not matched for class ru.sfedu.petclinic.model.Pet
 11.30:08.22.49 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
 11.30:08.33.36 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Annotation @org.simpleframework.xml.Attribute(name="type", required=true, empty="") must mark a set or get method
@@ -228,7 +228,7 @@ Message: Content is not allowed in prolog.
 11.30:08.44.09 INFO	ru.sfedu.lab1.Lab1LogsClient:21 - Pet NameJonny
 11.30:08.44.09 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:08.46.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.myApp.Model.Pet.name for class ru.sfedu.myApp.Model.Pet at line 1
+11.30:08.46.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="name", type=void.class, data=false, required=true) on field 'name' private java.lang.String ru.sfedu.petclinic.model.Pet.name for class ru.sfedu.petclinic.model.Pet at line 1
 11.30:08.46.17 INFO	ru.sfedu.lab1.Lab1LogsClient:34 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
 11.30:08.53.03 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - Pet Name: Jonny
@@ -237,16 +237,16 @@ Message: Premature end of file.
 11.30:09.03.09 INFO	ru.sfedu.lab1.Lab1LogsClient:26 - Pet Name: Jonny
 11.30:09.03.09 INFO	ru.sfedu.lab1.Lab1LogsClient:39 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:09.37.30 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.myApp.Model.XmlWrapper@424e1977
+11.30:09.37.30 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.petclinic.model.XmlWrapper@424e1977
 11.30:09.37.30 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:09.38.15 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.myApp.Model.XmlWrapper@424e1977
+11.30:09.38.15 INFO	ru.sfedu.lab1.Lab1LogsClient:23 - Pet Name: ru.sfedu.petclinic.model.XmlWrapper@424e1977
 11.30:09.38.15 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:09.39.27 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="", type=void.class, data=false, required=true) on field 'pets' private java.util.HashMap ru.sfedu.myApp.Model.XmlWrapper.pets for class ru.sfedu.myApp.Model.XmlWrapper at line 1
+11.30:09.39.27 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="", type=void.class, data=false, required=true) on field 'pets' private java.util.HashMap ru.sfedu.petclinic.model.XmlWrapper.pets for class ru.sfedu.petclinic.model.XmlWrapper at line 1
 11.30:09.39.27 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTestParseError at [row,col]:[1,1]
 Message: Premature end of file.
-11.30:15.50.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="wrapper", type=void.class, data=false, required=true) on field 'list' java.util.List ru.sfedu.myApp.Model.XmlWrapper.list for class ru.sfedu.myApp.Model.XmlWrapper at line 1
+11.30:15.50.17 INFO	ru.sfedu.lab1.Lab1LogsClient:25 - SimpleTest Unable to satisfy @org.simpleframework.xml.Element(name="wrapper", type=void.class, data=false, required=true) on field 'list' java.util.List ru.sfedu.petclinic.model.XmlWrapper.list for class ru.sfedu.petclinic.model.XmlWrapper at line 1
 11.30:15.59.22 INFO	ru.sfedu.lab1.Lab1LogsClient:31 - SimpleTest Implementation of JAXB-API has not been found on module path or classpath.
 11.30:16.04.03 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions
 11.30:16.06.22 INFO	ru.sfedu.lab1.Lab1LogsClient:27 - SimpleTest 1 counts of IllegalAnnotationExceptions

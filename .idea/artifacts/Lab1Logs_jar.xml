@@ -2,7 +2,7 @@
   <artifact type="jar" name="Lab1Logs:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Lab1Logs_jar</output-path>
     <root id="archive" name="Lab1Logs.jar">
-      <element id="module-output" name="Lab1Logs" />
+      <element id="module-output" name="petClinic" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar" path-in-jar="/" />

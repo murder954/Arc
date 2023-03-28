@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlWrapper>
+    <wrapper>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="owner">
+            <ownerId>c9543e82-3d39-4460-9265-5074cd440d18</ownerId>
+            <ownerName>Patrick_Bateman</ownerName>
+            <phone>+79196665716</phone>
+            <email>americanpsy@gmail.com</email>
+            <bankAccount>6669996669996661</bankAccount>
+        </list>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="owner">
+            <ownerId>37228a48-a429-4eed-b12d-aaa82cd5d56d</ownerId>
+            <ownerName>Joe_Bladerunner</ownerName>
+            <phone>+79387175643</phone>
+            <email>lonely@outlook.com</email>
+            <bankAccount>7382992838296451</bankAccount>
+        </list>
+    </wrapper>
+</xmlWrapper>

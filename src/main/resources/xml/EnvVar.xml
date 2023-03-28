@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlWrapper>
+    <wrapper>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="environmentVariant">
+            <houseName>play_center</houseName>
+            <variantId>6218a149-2a5e-492e-a515-d23c767db986</variantId>
+            <addition>scratching_post</addition>
+            <insideHouseUsing>true</insideHouseUsing>
+            <environmentFeatures>toy_mouse</environmentFeatures>
+            <price>1999.99</price>
+            <forPet>CAT</forPet>
+        </list>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="environmentVariant">
+            <houseName>medium_aquarium</houseName>
+            <variantId>13596bd6-a13d-4a94-ad06-af8f01730211</variantId>
+            <addition>seaweed</addition>
+            <insideHouseUsing>true</insideHouseUsing>
+            <environmentFeatures>water_filter</environmentFeatures>
+            <price>2999.99</price>
+            <forPet>FISH</forPet>
+        </list>
+    </wrapper>
+</xmlWrapper>

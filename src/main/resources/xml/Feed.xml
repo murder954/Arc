@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlWrapper>
+    <wrapper>
+        <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="feed">
+            <feedName>corn</feedName>
+            <feedId>daa904d5-4a67-4554-b66c-d3002e08c50f</feedId>
+            <priceForPack>99.9</priceForPack>
+            <weightOfPack>200.0</weightOfPack>
+            <forPet>FISH</forPet>
+        </list>
+    </wrapper>
+</xmlWrapper>

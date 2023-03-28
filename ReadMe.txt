@@ -1,31 +1,3 @@
- //Порядок проверки работы проекта
- //Я не вправе указывать вам как проверять проект, но для вашего удобства я сделал так, чтобы можно было проверить работоспособность приложения, просто выполнив команды, которые указаны в примерах. Так как идентификаторы записей сгенерированы с помощью UUID, чтобы узнать идентификатор записи необходимо заходить в файлы XML и CSV (они хранятся в дирректории resources, в папках XMLFiles и CSVFiles). В данный момент в базе данных, и CSV и XML файлах уже есть записи(pet, owner, feed, disease, drug, environment variant) для выполнения основных функций приложения(лечение, подбор корма, подбор варианта жилья, подсчет затрат). 
- 
-*Вы можете создать свои объекты и проверять на них работоспособность приложения. Для этого необходимо выполнить следущие действия:
- 1. Выберите DataProvider(DB, XML, CSV). Необходимо чтобы существовали все необходимые данные(pet, owner, feed, disease, drug, environment variant) для выполнения основных функций(лечение, подбор корма, подбор варианта жилья, подсчет затрат). Все последущие действия необходимо делать в одном провайдере
- 1. Создать владельца (строки 36-40)
-    Введите свои параметры и выполните команду. Затем узнайте id, созданного владельца, для этого необходимо перейти в датабазу и открыть таблицу владельцев, в случае если использовался 
-    DataBase Provider. В папках CSVFiles, XMLFiles открыть файл Owner.xml или Owner.csv в зависимости от выбранного дата провайдера и найти вашего владельца.     
- 2. Создать питомца (строки 44-90)
-    Введите параметры своего питомца, и id владельца созданного ранее. Выполните программу Затем узнайте id, созданного питомца, для этого необходимо открыть соответствующую таблицу, 
-    либо файл CSV XML, в зависимости от используемого дата провайдера. Этот идентификатор пригодится для последующих функций.
- 3. Создайте корм (строки 94-103)
-    Введите параметры корма(необходимо чтобы он подходил вашему питомцу)  и выполните команду. Идентификатор корма не так важен нам для дальнейших функций, но вы можете посмотреть 
-    созданную запись в таблице feeds или файле Feed.xml/Feed.csv .  
- 4. Создайте запись болезни (строка 107-115)
-    Введите параметры болезни, соответствующей болезни вашего питомца и выполните команду. Идентификатор болезни не так важен нам для дальнейших функций, но вы можете посмотреть
-    созданную запись в таблице diseases или файле Disease.xml/Disease.csv .   
- 5. Создайте лекарство (строки 119-128)
-    Введите параметры лекарства для лечения болезни вашего питомца и выполните команду. Идентификатор лекарства не так важен нам для дальнейших функций, но вы можете посмотреть
-    созданную запись в таблице drugs или файле Drug.xml/Drug.csv .
- 6. Создайте вариант жилья (строки 132-143)
-    Введите параметры варианта жилья для вашего питомца и выполните команду. Идентификатор варианта не так важен нам для дальнейших функций, но вы можете посмотреть
-    созданную запись в таблице environmentVariants или файле EnvVar.xml/EnvVar.csv .
- 7. Вы создали все необходимые записи для правильного использования функций. Для выполнения этих функций нам и нужен идентификатор питомца из пункта 2. Теперь вы можете выполнить их, 
-    но если вы сначала выполните функцию подсчета затрат для вашего питомца (строки 229-243), то вы будет выведено сообщение об отсутствии записей в истории обращений для этого питомца.
-    Команды для основных действий клиники вы можете найти на строке .
-    
-*Вы можете испльзовать мои команды указанные в примерах. Вы можете выполнять их в любом порядке, но если вы сначала выполните функцию подсчета затрат для вашего питомца (строки 229-243), то вы будет выведено сообщение об отсутствии записей в истории обращений для этого питомца. Также, так как при выполнении команд удаления будут удаляться записи участвующие в подборах корма и жилья, лечении и рассчета затрат, необходимо выполнять команды удаления записей после проверки выполнения основных функций. Проверить результат выполнения можно открыв соответствующую таблицу или файл.     
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  Команды для запуска.
@@ -53,41 +25,41 @@
  diseaseName - название болезни
  
  //создание кота:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [ownerId] [petName] [gender] [weight] [feedType] [petType] [age] [diseaseName] [afraidDogs] [isCalm]
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [petType] [ownerId] [petName] [gender] [weight] [feedType] [age] [diseaseName] [afraidDogs] [isCalm]
  
  //специальные параметры для создания кота
  afraidDogs - булевое значение, показывающее отношение кота к собакам
  isCalm - булевое значение, показывающее спокойный питомец или нет
  
  //Пример:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet DB a5ccdaaa-cdd3-45f6-8e55-1814fa2545c3 Paul male 2.8 wiskas cat 4 pancreatitis true true
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet DB cat a5ccdaaa-cdd3-45f6-8e55-1814fa2545c3 Paul male 2.8 wiskas 4 pancreatitis true true
 -----------------------------------------------------------------
  //создание собаки:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [ownerId] [petName] [gender] [weight] [feedType] [petType] [age] [diseaseName] [isAgressive]
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [petType] [ownerId] [petName] [gender] [weight] [feedType] [age] [diseaseName] [isAgressive]
  
  //специальные параметры для создания собаки
  isAgressive - булевое значение, показывающее агрессивная ли собака
  
  //Пример:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet XML c9543e82-3d39-4460-9265-5074cd440d18 Vi male 33.4 meatsticks dog 2 cystitis true
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet XML dog c9543e82-3d39-4460-9265-5074cd440d18 Vi male 33.4 meatsticks 2 cystitis true
 -----------------------------------------------------------------
  //создание птицы:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [ownerId] [petName] [gender] [weight] [feedType] [petType] [age] [diseaseName] [isWaterFlow]
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [petType] [ownerId] [petName] [gender] [weight] [feedType] [age] [diseaseName] [isWaterFlow]
  
- //специальные параметры для создания собаки
+ //специальные параметры для создания птицы
  isWaterFlow - булевое значение, показывающее водоплавающая ли птица
  
  //Пример: 
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet XML c9543e82-3d39-4460-9265-5074cd440d18 Flavio female 2.4 bread bird 2 psitacosis false
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet XML bird c9543e82-3d39-4460-9265-5074cd440d18 Flavio female 2.4 bread 2 psitacosis false
 -----------------------------------------------------------------
  //создание рыбки:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [ownerId] [petName] [gender] [weight] [feedType] [petType] [age] [diseaseName] [waterType]
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet [dataProvider] [petType] [ownerId] [petName] [gender] [weight] [feedType] [age] [diseaseName] [waterType]
  
- //специальные параметры для создания собаки
+ //специальные параметры для создания рыбки
  waterType - тип воды для обитания рыбки
  
  //Пример: 
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet CSV 314eb43f-ac8f-4b44-a313-90d1e09d5996 Goldy female 0.3 corn fish 1 lepidorthosis fresh
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -pet CSV fish 314eb43f-ac8f-4b44-a313-90d1e09d5996 Goldy female 0.3 corn 1 lepidorthosis fresh
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -97,10 +69,10 @@
  feedName - название корма
  priceForPack - цена за 1 пачку(double)
  weightOfPack - вес пачки(double)
- forPetType - тип питомца, для которого предназначен данный корм
+ forPetType - тип питомца(enum: CAT, DOG, FISH, BIRD), для которого предназначен данный корм
  
  //Пример:
-  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -feed XML wiskas 145.2 100.0 cat
+  java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -feed XML wiskas 145.2 100.0 CAT
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  
@@ -137,10 +109,10 @@
  environmentFeatures - особенности варианта жилья
  addition - дополнение к варианту жилья, которые включены в стоимость 
  price - стоимость варианта жилья
- forPetType - тип питомца, для которого предназначен данный вариант жилья
+ forPetType - тип питомца(enum: CAT, DOG, FISH, BIRD), для которого предназначен данный вариант жилья
  
  //Пример:
- java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -variant CSV big_cage true perch bird_feeder 3999.99 bird
+ java -Dpath=src/main/resources/MyAPP.properties -jar out/artifacts/Lab1Logs_jar/Lab1Logs.jar -variant CSV big_cage true perch bird_feeder 3999.99 BIRD
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  

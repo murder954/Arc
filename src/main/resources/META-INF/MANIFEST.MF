@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: ru.sfedu.myApp.Model.Main
+Main-Class: ru.sfedu.petclinic.model.Main
 
