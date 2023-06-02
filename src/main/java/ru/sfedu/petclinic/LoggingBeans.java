@@ -4,44 +4,42 @@ import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
+import jakarta.xml.bind.JAXB;
 import org.bson.Document;
 import ru.sfedu.petclinic.model.HistoryContent;
 import ru.sfedu.petclinic.util.ConfigUtils;
 
 import java.io.IOException;
+import java.io.StringWriter;
 import java.time.ZonedDateTime;
 
 import static ru.sfedu.petclinic.Constans.*;
 
 public class LoggingBeans {
-    ConfigUtils config = new ConfigUtils();
-
-    private XStream xstream = new XStream(new JettisonMappedXmlDriver());
     private MongoClient mongoClient;
     private MongoDatabase database;
     private HistoryContent content;
+    private ConfigUtils config = new ConfigUtils();
+    StringWriter sw = new StringWriter();
 
     public LoggingBeans() throws IOException {
-        xstream.setMode(XStream.NO_REFERENCES);
-        mongoClient = MongoClients.create(config.getConfigurationEntry(MONGO_PATH));
+        try {
+            mongoClient = MongoClients.create(config.getConfigurationEntry(MONGO_PATH));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         database = mongoClient.getDatabase(config.getConfigurationEntry(MONGO_DB_NAME));
     }
 
     private HistoryContent createHistoryContent(Object obj, String method, String id) {
-        HistoryContent newHistory = new HistoryContent();
-        newHistory.setClassName(obj.getClass().getName());
-        newHistory.setMethodName(method);
-        newHistory.setObjectId(id);
-        newHistory.setOperationDate(ZonedDateTime.now().toString());
-        newHistory.setObject(xstream.toXML(obj));
-        return newHistory;
-    }
-
-    public void logObjectChange(Object obj, String method, String id) throws IOException {
-        content = createHistoryContent(obj, method, id);
-        writeChanges();
+        HistoryContent newEntry = new HistoryContent();
+        newEntry.setClassName(obj.getClass().getName());
+        newEntry.setMethodName(method);
+        newEntry.setObjectId(id);
+        newEntry.setOperationDate(ZonedDateTime.now().toString());
+        JAXB.marshal(obj, sw);
+        newEntry.setObject(sw.toString());
+        return newEntry;
     }
 
     private void writeChanges() throws IOException {
@@ -54,4 +52,10 @@ public class LoggingBeans {
 
         collection.insertOne(document);
     }
+
+    public void logObjectChange(Object obj, String method, String id) throws IOException {
+        content = createHistoryContent(obj, method, id);
+        writeChanges();
+    }
+
 }

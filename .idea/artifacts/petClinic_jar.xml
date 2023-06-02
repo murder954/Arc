@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="petClinic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/petClinic_jar</output-path>
+    <root id="archive" name="petClinic.jar">
+      <element id="module-output" name="petClinic" />
+    </root>
+  </artifact>
+</component>

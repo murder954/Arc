@@ -138,6 +138,20 @@ public class Constans {
     public static final String NO_DISEASE = "NO_DISEASE";
     public static final String DEFAULT_PRICE = "DEFAULT_PRICE";
 
+    public static final String HB_CFG_1 = "HB_CFG_1";
+    public static final String HB_CFG_31 = "HB_CFG_31";
+    public static final String HB_CFG_32 = "HB_CFG_32";
+
+    public static final String HB_CFG_33 = "HB_CFG_33";
+    public static final String HB_CFG_34 = "HB_CFG_34";
+
+    public static final String HB_CFG_4 = "HB_CFG_4";
+
+    public static final String HB_CFG_5_1_TO_MN = "HB_CFG_5_1_TO_MN";
+
+    public static final String HB_CFG_5_1_TO_1 = "HB_CFG_5_1_TO_1";
+
+    public static final String HB_CFG_5_MN_TO_MN = "HB_CFG_5_MN_TO_MN";
 
 
     public enum TypePet{
